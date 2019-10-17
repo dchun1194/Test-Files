@@ -20,7 +20,7 @@
             "objects": {
                 "0": {
                     "hashes": {
-                        "MD5": "8a0a29438052faed8a2532da50455756"
+                        "MD5": "846cdb921841ac671c86350d494abf9c"
                     },
                     "name": "svctest.exe",
                     "type": "file"
@@ -218,7 +218,7 @@
             "objects": {
                 "0": {
                     "hashes": {
-                        "MD5": "8a0a29438052faed8a2532da50455756"
+                        "MD5": "846cdb921841ac671c86350d494abf9c"
                     },
                     "name": "svctest.exe",
                     "type": "file"
