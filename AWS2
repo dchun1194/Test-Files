@@ -6,7 +6,7 @@
             "id": "identity--f8b6ee06-9176-40b8-8127-f3d1ac0b30d6",
             "identity_class": "system",
             "modified": "2019-08-23T14:40:59.719Z",
-            "name": "AWS",
+            "name": "splunk",
             "type": "identity"
         },
         {
@@ -21,7 +21,7 @@
                 "0": {
                     "resolves_to_refs": "2",
                     "type": "ipv4-addr",
-                    "value": "192.168.0.8"
+                    "value": "192.168.0.1"
                 },
                 "1": {
                     "dst_port": 1120,
@@ -40,7 +40,7 @@
                 "3": {
                     "resolves_to_refs": "4",
                     "type": "ipv4-addr",
-                    "value": "192.168.0.8"
+                    "value": "127.0.0.1"
                 },
                 "4": {
                     "type": "mac-addr",
@@ -53,22 +53,27 @@
                     "type": "file"
                 },
                 "6": {
-                    "account_login": "DanielJones",
+                    "account_login": "test",
                     "type": "user-account",
-                    "user_id": "DanielJones"
+                    "user_id": "test"
                 },
                 "7": {
                     "type": "url",
-                    "value": "https://s3.amazonaws.com/customerdata"
+                    "value": "https://test.fireeye.com/malware_analysis/analyses?maid=1"
                 },
                 "8": {
                     "type": "domain-name",
-                    "value": "s3.amazonaws.com"
+                    "value": "test.fireeye.com"
+                },
+                "9": {
+                    "payload_bin": "QXVnIDIzIDIwMTkgMTQ6Mzg6NTkgMTkyLjE2OC4zMy4xMzEgZmVub3RpZnktMi5hbGVydDogQ0VGOjB8RmlyZUV5ZXxNQVN8Ni4yLjAuNzQyOTh8TU98bWFsd2FyZS1vYmplY3R8NHxydD1BdWcgMjMgMjAxOSAxNDozODo1OSBaIHNyYz0xNjkuMjUwLjAuMSBkcHQ9MTEyMCBkc3Q9MTI3LjAuMC4xIHNwdD0xMjIwIHNtYWM9QUE6QkI6Q0M6REQ6MTE6MjIgZG1hYz1FRTpERDpCQjpBQTpDQzoxMSBjbjJMYWJlbD1zaWQgY24yPTExMSBmaWxlSGFzaD1jNmVkYWExZTYxMjVmYWRkYWNiMzRmNWY1NjdjYmI3OGFiYjFjMTM4Zjk3MGQ5MTRiOTVmZGQ0NDk5MDUyYWEwIHByb3RvPXRjcCByZXF1ZXN0PWh0dHA6Ly9xYS1zZXJ2ZXIuZW5nLmZpcmVleWUuY29tL1FFL05vdGlmaWNhdGlvblBjYXBzLzU4LjI1My42OC4yOV84MC0xOTIuMTY4Ljg1LjEyOF8xMTY1LTIxMTkyODMxMDlfVC5leGUgY3MzTGFiZWw9b3NpbmZvIGNzMz1NaWNyb3NvZnQgV2luZG93czcgUHJvZmVzc2lvbmFsIDYuMSBzcDEgZHZjaG9zdD13YWxseSBkdmM9MTAuMi4xMDEuMTAxIGNuMUxhYmVsPXZsYW4gY24xPTAgZXh0ZXJuYWxJZD0xIGNzNExhYmVsPWxpbmsgY3M0PWh0dHBzOi8vd2FsbHkuZmlyZWV5ZS5jb20vbWFsd2FyZV9hbmFseXNpcy9hbmFseXNlcz9tYWlkPTEgY3MyTGFiZWw9YW5vbWFseSBjczI9bWlzYy1hbm9tYWx5IGNzMUxhYmVsPXNuYW1lIGNzMT1GRV9VUFg7VHJvamFuLlBXUy5PbmxpbmVHYW1lcyAK",
+                    "type": "artifact"
                 }
             },
             "type": "observed-data",
             "x_com_splunk_spl": {
-                "user": "DanielJones",
+                "user": "sname",
+                "utf8_payload": "Aug 23 2019 14:38:59 192.168.33.131 fenotify-2.alert: CEF:0|FireEye|MAS|6.2.0.74298|MO|malware-object|4|rt=Aug 23 2019 14:38:59 Z src=192.168.0.1 dpt=1120 dst=127.0.0.1 spt=1220 smac=AA:BB:CC:DD:11:22 dmac=EE:DD:BB:AA:CC:11 cn2Label=sid cn2=111 fileHash=c6edaa1e6125faddacb34f5f567cbb78abb1c138f970d914b95fdd4499052aa0 proto=tcp request=http://qa-server.eng.fireeye.com/QE/NotificationPcaps/58.253.68.29_80-192.168.85.128_1165-2119283109_T.exe cs3Label=osinfo cs3=Microsoft Windows7 Professional 6.1 sp1 dvchost=wally dvc=10.2.101.101 cn1Label=vlan cn1=0 externalId=1 cs4Label=link cs4=https://test.fireeye.com/malware_analysis/analyses?maid=1 cs2Label=anomaly cs2=misc-anomaly cs1Label=sname cs1=FE_UPX;Trojan.PWS.OnlineGames \n"
             }
             },
             {
