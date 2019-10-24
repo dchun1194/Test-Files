@@ -17,7 +17,7 @@
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "2"
                 },
                 "1": {
@@ -36,7 +36,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "4"
                 },
                 "4": {
@@ -80,9 +80,9 @@
                 "category_name": "Create Activity Succeeded    ",
                 "category_id": 19012,
                 "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.90",
+                "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:00.151Z",
@@ -155,9 +155,9 @@
                 "category_name": "ACL Permit",
                 "category_id": 4012,
                 "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.90",
+                "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.90 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
+                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
                 "magnitude": 3
             },
             "first_observed": "2019-10-14T23:58:00.151Z",
@@ -173,7 +173,7 @@
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "2"
                 },
                 "1": {
@@ -192,7 +192,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "4"
                 },
                 "4": {
@@ -236,9 +236,9 @@
                 "category_name": "Create Activity Succeeded    ",
                 "category_id": 19012,
                 "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.90",
+                "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:00.151Z",
@@ -311,9 +311,9 @@
                 "category_name": "ACL Permit",
                 "category_id": 4012,
                 "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.90",
+                "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.90 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
                 "magnitude": 3
             },
             "first_observed": "2019-10-14T23:58:00.650Z",
@@ -329,7 +329,7 @@
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "2"
                 },
                 "1": {
@@ -348,7 +348,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "4"
                 },
                 "4": {
@@ -392,9 +392,9 @@
                 "category_name": "Create Activity Succeeded    ",
                 "category_id": 19012,
                 "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.90",
+                "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:01.652Z",
@@ -467,9 +467,9 @@
                 "category_name": "ACL Permit",
                 "category_id": 4012,
                 "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.90",
+                "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.90 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
                 "magnitude": 3
             },
             "first_observed": "2019-10-14T23:58:01.652Z",
@@ -485,7 +485,7 @@
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "2"
                 },
                 "1": {
@@ -504,7 +504,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "4"
                 },
                 "4": {
@@ -548,9 +548,9 @@
                 "category_name": "Create Activity Succeeded    ",
                 "category_id": 19012,
                 "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.90",
+                "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:01.652Z",
@@ -623,9 +623,9 @@
                 "category_name": "ACL Permit",
                 "category_id": 4012,
                 "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.90",
+                "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.90 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
+                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
                 "magnitude": 3
             },
             "first_observed": "2019-10-14T23:58:01.652Z",
@@ -641,7 +641,7 @@
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "2"
                 },
                 "1": {
@@ -660,7 +660,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.90",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "4"
                 },
                 "4": {
@@ -704,9 +704,9 @@
                 "category_name": "Create Activity Succeeded    ",
                 "category_id": 19012,
                 "log_source_id": 1912,
-                "log_source_name": "Sysmon @ 192.168.0.90",
+                "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.90 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
             "first_observed": "2019-10-14T23:58:01.652Z",
