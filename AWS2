@@ -1,148 +1,78 @@
 {
-    "id": "bundle--ba4e815d-dd60-4f9b-bd06-edda52e71ce3",
+    "type": "bundle",
+    "id": "bundle--abe952aa-b943-4a9d-98d4-c6c073b4e8dc",
     "objects": [
         {
-            "created": "2019-08-23T14:40:59.719Z",
-            "id": "identity--f8b6ee06-9176-40b8-8127-f3d1ac0b30d6",
-            "identity_class": "system",
-            "modified": "2019-08-23T14:40:59.719Z",
-            "name": "splunk",
-            "type": "identity"
-        },
-        {
-            "created": "2019-08-23T14:38:59.000Z",
-            "created_by_ref": "identity--f8b6ee06-9176-40b8-8127-f3d1ac0b30d6",
-            "first_observed": "2019-08-23T14:38:59.000Z",
-            "id": "observed-data--5fc544cd-515e-41cc-829e-05b3379bd36c",
-            "last_observed": "2019-08-23T14:38:59.000Z",
-            "modified": "2019-08-23T14:38:59.000Z",
-            "number_observed": 1,
-            "objects": {
-                "0": {
-                    "resolves_to_refs": "2",
-                    "type": "ipv4-addr",
-                    "value": "192.168.0.1"
-                },
-                "1": {
-                    "dst_port": 1120,
-                    "dst_ref": "3",
-                    "protocols": [
-                        "tcp"
-                    ],
-                    "src_port": 1220,
-                    "src_ref": "0",
-                    "type": "network-traffic"
-                },
-                "2": {
-                    "type": "mac-addr",
-                    "value": "AA:BB:CC:DD:11:22"
-                },
-                "3": {
-                    "resolves_to_refs": "4",
-                    "type": "ipv4-addr",
-                    "value": "127.0.0.1"
-                },
-                "4": {
-                    "type": "mac-addr",
-                    "value": "EE:DD:BB:AA:CC:11"
-                },
-                "5": {
-                    "hashes": {
-                        "SHA-256": "c6edaa1e6125faddacb34f5f567cbb78abb1c138f970d914b95fdd4499052aa0"
-                    },
-                    "type": "file"
-                },
-                "6": {
-                    "account_login": "test",
-                    "type": "user-account",
-                    "user_id": "test"
-                },
-                "7": {
-                    "type": "url",
-                    "value": "https://test.fireeye.com/malware_analysis/analyses?maid=1"
-                },
-                "8": {
-                    "type": "domain-name",
-                    "value": "test.fireeye.com"
-                },
-                "9": {
-                    "payload_bin": "QXVnIDIzIDIwMTkgMTQ6Mzg6NTkgMTkyLjE2OC4zMy4xMzEgZmVub3RpZnktMi5hbGVydDogQ0VGOjB8RmlyZUV5ZXxNQVN8Ni4yLjAuNzQyOTh8TU98bWFsd2FyZS1vYmplY3R8NHxydD1BdWcgMjMgMjAxOSAxNDozODo1OSBaIHNyYz0xNjkuMjUwLjAuMSBkcHQ9MTEyMCBkc3Q9MTI3LjAuMC4xIHNwdD0xMjIwIHNtYWM9QUE6QkI6Q0M6REQ6MTE6MjIgZG1hYz1FRTpERDpCQjpBQTpDQzoxMSBjbjJMYWJlbD1zaWQgY24yPTExMSBmaWxlSGFzaD1jNmVkYWExZTYxMjVmYWRkYWNiMzRmNWY1NjdjYmI3OGFiYjFjMTM4Zjk3MGQ5MTRiOTVmZGQ0NDk5MDUyYWEwIHByb3RvPXRjcCByZXF1ZXN0PWh0dHA6Ly9xYS1zZXJ2ZXIuZW5nLmZpcmVleWUuY29tL1FFL05vdGlmaWNhdGlvblBjYXBzLzU4LjI1My42OC4yOV84MC0xOTIuMTY4Ljg1LjEyOF8xMTY1LTIxMTkyODMxMDlfVC5leGUgY3MzTGFiZWw9b3NpbmZvIGNzMz1NaWNyb3NvZnQgV2luZG93czcgUHJvZmVzc2lvbmFsIDYuMSBzcDEgZHZjaG9zdD13YWxseSBkdmM9MTAuMi4xMDEuMTAxIGNuMUxhYmVsPXZsYW4gY24xPTAgZXh0ZXJuYWxJZD0xIGNzNExhYmVsPWxpbmsgY3M0PWh0dHBzOi8vd2FsbHkuZmlyZWV5ZS5jb20vbWFsd2FyZV9hbmFseXNpcy9hbmFseXNlcz9tYWlkPTEgY3MyTGFiZWw9YW5vbWFseSBjczI9bWlzYy1hbm9tYWx5IGNzMUxhYmVsPXNuYW1lIGNzMT1GRV9VUFg7VHJvamFuLlBXUy5PbmxpbmVHYW1lcyAK",
-                    "type": "artifact"
-                }
-            },
-            "type": "observed-data",
-            "x_com_splunk_spl": {
-                "user": "sname",
-                "utf8_payload": "Aug 23 2019 14:38:59 192.168.33.131 fenotify-2.alert: CEF:0|FireEye|MAS|6.2.0.74298|MO|malware-object|4|rt=Aug 23 2019 14:38:59 Z src=192.168.0.1 dpt=1120 dst=127.0.0.1 spt=1220 smac=AA:BB:CC:DD:11:22 dmac=EE:DD:BB:AA:CC:11 cn2Label=sid cn2=111 fileHash=c6edaa1e6125faddacb34f5f567cbb78abb1c138f970d914b95fdd4499052aa0 proto=tcp request=http://qa-server.eng.fireeye.com/QE/NotificationPcaps/58.253.68.29_80-192.168.85.128_1165-2119283109_T.exe cs3Label=osinfo cs3=Microsoft Windows7 Professional 6.1 sp1 dvchost=wally dvc=10.2.101.101 cn1Label=vlan cn1=0 externalId=1 cs4Label=link cs4=https://test.fireeye.com/malware_analysis/analyses?maid=1 cs2Label=anomaly cs2=misc-anomaly cs1Label=sname cs1=FE_UPX;Trojan.PWS.OnlineGames \n"
-            }
-            },
+            "type": "identity",
+            "id": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "name": "QRadar",
+            "identity_class": "events"
+        },            
             {
-            "created": "2019-08-23T13:39:02.000Z",
-            "created_by_ref": "identity--f8b6ee06-9176-40b8-8127-f3d1ac0b30d6",
-            "first_observed": "2019-08-23T13:39:02.000Z",
-            "id": "observed-data--7709dbed-40e8-4d4c-beb3-c7023f771204",
-            "last_observed": "2019-08-23T13:39:02.000Z",
-            "modified": "2019-08-23T13:39:02.000Z",
-            "number_observed": 1,
+            "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
+            "type": "observed-data",
+            "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+            "created": "2019-10-16T17:19:32.138Z",
+            "modified": "2019-10-16T17:19:32.138Z",
             "objects": {
                 "0": {
-                    "resolves_to_refs": "2",
                     "type": "ipv4-addr",
-                    "value": "192.168.0.1"
+                    "value": "192.168.0.8",
+                    "resolves_to_refs": "2"
                 },
                 "1": {
-                    "dst_port": 1120,
-                    "dst_ref": "3",
-                    "protocols": [
-                        "tcp"
-                    ],
-                    "src_port": 1220,
+                    "type": "network-traffic",
                     "src_ref": "0",
-                    "type": "network-traffic"
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
                 },
                 "2": {
                     "type": "mac-addr",
-                    "value": "AA:BB:CC:DD:11:22"
+                    "value": "00:00:00:00:00:00"
                 },
                 "3": {
-                    "resolves_to_refs": "4",
                     "type": "ipv4-addr",
-                    "value": "127.0.0.1"
+                    "value": "192.168.0.8",
+                    "resolves_to_refs": "4"
                 },
                 "4": {
                     "type": "mac-addr",
-                    "value": "EE:DD:BB:AA:CC:11"
+                    "value": "00:00:00:00:00:00"
                 },
                 "5": {
-                    "hashes": {
-                        "SHA-256": "c6edaa1e6125faddacb34f5f567cbb78abb1c138f970d914b95fdd4499052aa0"
-                    },
-                    "type": "file"
-                },
-                "6": {
-                    "account_login": "test",
                     "type": "user-account",
-                    "user_id": "test"
-                },
-                "7": {
-                    "type": "url",
-                    "value": "https://test.fireeye.com/malware_analysis/analyses?maid=1"
+                    "user_id": "DanielJones"
                 },
                 "8": {
-                    "type": "domain-name",
-                    "value": "test.fireeye.com"
+                    "type": "process",
+                    "name": "aws",
+                    "binary_ref": "7",
+                    "command_line": "fullDB_dump30102018.dump"
                 },
                 "9": {
-                    "payload_bin": "QXVnIDIzIDIwMTkgMTM6Mzk6MDIgMTkyLjE2OC4zMy4xMzEgZmVub3RpZnktMi5hbGVydDogQ0VGOjB8RmlyZUV5ZXxNQVN8Ni4yLjAuNzQyOTh8TU98bWFsd2FyZS1vYmplY3R8NHxydD1BdWcgMjMgMjAxOSAxMzozOTowMiBaIHNyYz0xNjkuMjUwLjAuMSBkcHQ9MTEyMCBkc3Q9MTI3LjAuMC4xIHNwdD0xMjIwIHNtYWM9QUE6QkI6Q0M6REQ6MTE6MjIgZG1hYz1FRTpERDpCQjpBQTpDQzoxMSBjbjJMYWJlbD1zaWQgY24yPTExMSBmaWxlSGFzaD1jNmVkYWExZTYxMjVmYWRkYWNiMzRmNWY1NjdjYmI3OGFiYjFjMTM4Zjk3MGQ5MTRiOTVmZGQ0NDk5MDUyYWEwIHByb3RvPXRjcCByZXF1ZXN0PWh0dHA6Ly9xYS1zZXJ2ZXIuZW5nLmZpcmVleWUuY29tL1FFL05vdGlmaWNhdGlvblBjYXBzLzU4LjI1My42OC4yOV84MC0xOTIuMTY4Ljg1LjEyOF8xMTY1LTIxMTkyODMxMDlfVC5leGUgY3MzTGFiZWw9b3NpbmZvIGNzMz1NaWNyb3NvZnQgV2luZG93czcgUHJvZmVzc2lvbmFsIDYuMSBzcDEgZHZjaG9zdD13YWxseSBkdmM9MTAuMi4xMDEuMTAxIGNuMUxhYmVsPXZsYW4gY24xPTAgZXh0ZXJuYWxJZD0xIGNzNExhYmVsPWxpbmsgY3M0PWh0dHBzOi8vd2FsbHkuZmlyZWV5ZS5jb20vbWFsd2FyZV9hbmFseXNpcy9hbmFseXNlcz9tYWlkPTEgY3MyTGFiZWw9YW5vbWFseSBjczI9bWlzYy1hbm9tYWx5IGNzMUxhYmVsPXNuYW1lIGNzMT1GRV9VUFg7VHJvamFuLlBXUy5PbmxpbmVHYW1lcyAK",
-                    "type": "artifact"
+                    "type": "domain",
+                    "path": "s3.amazonaws.com"
                 }
             },
-            "type": "observed-data",
-            "x_com_splunk_spl": {
-                "user": "sname",
-                "utf8_payload": "Aug 23 2019 13:39:02 192.168.33.131 fenotify-2.alert: CEF:0|FireEye|MAS|6.2.0.74298|MO|malware-object|4|rt=Aug 23 2019 13:39:02 Z src=192.168.0.1 dpt=1120 dst=127.0.0.1 spt=1220 smac=AA:BB:CC:DD:11:22 dmac=EE:DD:BB:AA:CC:11 cn2Label=sid cn2=111 fileHash=c6edaa1e6125faddacb34f5f567cbb78abb1c138f970d914b95fdd4499052aa0 proto=tcp request=http://qa-server.eng.fireeye.com/QE/NotificationPcaps/58.253.68.29_80-192.168.85.128_1165-2119283109_T.exe cs3Label=osinfo cs3=Microsoft Windows7 Professional 6.1 sp1 dvchost=wally dvc=10.2.101.101 cn1Label=vlan cn1=0 externalId=1 cs4Label=link cs4=https://test.fireeye.com/malware_analysis/analyses?maid=1 cs2Label=anomaly cs2=misc-anomaly cs1Label=sname cs1=FE_UPX;Trojan.PWS.OnlineGames \n"
-            }
+            "x_com_ibm_ariel": {
+                "devicetype": 18,
+                "qid_name": "AWS CloudTrail Message",
+                "qid": 67500346,
+                "category_name": "AWS CloudTrail",
+                "category_id": 7036,
+                "log_source_id": 63,
+                "log_source_name": "AWS CloudTrail",
+                "identity_ip": "0.0.0.0",
+                "utf8_payload": "localhost:accountId:911534260404,accessKeyId:ASIA5IO5NAC2OIBXQ4NY,userName:DanielJones,sessionContext:{attributes:{mfaAuthenticated:false,creationDate:2018-09-28T13:40:25Z}},invokedBy:Daniel},eventTime:2018-06-09T21:08:04Z,eventSource:s3.amazonaws.com,eventName:GetObject,awsRegion:us-west-2,sourceIPAddress:67.229.97.229,userAgent:[aws-cli/1.15.57 Python/2.7.14+ Linux/4.15.0-kali2-amd64 botocore/1.10.56],requestParameters:{X-Amz-Date:20180609T210803Z,bucketName:db_backups2032,response-content-disposition:inline,X-Amz-Algorithm:AWS4-HMAC-SHA256,X-Amz-SignedHeaders:host,X-Amz-Expires:300,key:fullDB_dump30102018.dump,responseElements:null,additionalEventData:{x-amz-id-2:aOFvDQjetBtTbrR6zfhmvFJEFS1dOdmSucSEVzd70yIwpLg6pSCalFewtoVchOzcSLKQswDjlAQ=},requestID:4D551A01693DE04D,eventID:73de1499-c6d0-4faa-84b3-f19f607a7a8d,readOnly:true,resources:[{type:AWS::S3::Object,ARN:arn:aws:s3:::mystorage2007/fullDB_dump30102018.dump},{accountId:911534260404,type:AWS::S3::Bucket,ARN:arn:aws:s3:::db_backups2032}],eventType:AwsApiCall,recipientAccountId:911534260404",
+                "magnitude": 5
+            },
+            "first_observed": "2019-10-10T16:42:58.140Z",
+            "last_observed": "2019-10-10T16:42:58.140Z",
+            "number_observed": 1
         }
-    ],
-    "type": "bundle"
+    ]
 }
