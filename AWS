@@ -71,12 +71,18 @@
                 }
             },
             "type": "observed-data",
-            "x_com_splunk_spl": {
-                "user": "DanielJones",
-                "utf8_payload": "Aug 23 2019 14:38:59 192.168.33.131 fenotify-2.alert: CEF:0|FireEye|MAS|6.2.0.74298|MO|malware-object|4|rt=Aug 23 2019 14:38:59 Z src=192.168.0.1 dpt=1120 dst=127.0.0.1 spt=1220 smac=AA:BB:CC:DD:11:22 dmac=EE:DD:BB:AA:CC:11 cn2Label=sid cn2=111 fileHash=c6edaa1e6125faddacb34f5f567cbb78abb1c138f970d914b95fdd4499052aa0 proto=tcp request=http://qa-server.eng.fireeye.com/QE/NotificationPcaps/58.253.68.29_80-192.168.85.128_1165-2119283109_T.exe cs3Label=osinfo cs3=Microsoft Windows7 Professional 6.1 sp1 dvchost=wally dvc=10.2.101.101 cn1Label=vlan cn1=0 externalId=1 cs4Label=link cs4=https://test.fireeye.com/malware_analysis/analyses?maid=1 cs2Label=anomaly cs2=misc-anomaly cs1Label=sname cs1=FE_UPX;Trojan.PWS.OnlineGames \n"
-            }
-        },
-        {
+            "x_com_ibm_ariel": {
+              "qid_name": "Data Exfiltration",
+              "qid": 113000042,
+              "category_name": "Data Exfiltration from S3 Bucket",
+              "category_id": 4041,
+              "log_source_id": 212,
+              "log_source_name": "AWS CloudTrail",
+              "identity_ip": "192.168.0.8",
+              "utf8_payload": "<13>Oct  2 09:17:51 localhost :{\"name\":\"pack_qradar_process_open_sockets\",\"hostIdentifier\":\"localhost.localdomain\",\"calendarTime\":\"Wed Oct  2 12:17:51 2019 UTC\",\"unixTime\":1570018671,\"epoch\":0,\"counter\":38339,\"decorations\":{\"host_uuid\":\"785E2142-FCE0-52FE-5E0C-B44089E6B909\",\"last_logged_in_user\":\"\"},\"columns\":{\"Unique_ID\":\"13986-172.16.89.115-42018-785E2142-FCE0-52FE-5E0C-B44089E6B909-process_open_sockets\",\"cmdline\":\"/usr/sbin/syslog-ng -F -p /var/run/syslogd.pid\",\"family\":\"2\",\"local_address\":\"172.16.89.115\",\"local_port\":\"42018\",\"net_namespace\":\"4026531956\",\"path\":\"\",\"pid\":\"13986\",\"process_name\":\"syslog-ng\",\"protocol\":\"6\",\"query_name\":\"process_open_sockets\",\"remote_address\":\"172.16.89.201\",\"remote_port\":\"12468\",\"state\":\"ESTABLISHED\",\"uid\":\"0\",\"username\":\"root\"},\"action\":\"added\"}\n",
+              "magnitude": 5 }
+          },
+          {
             "created": "2019-08-23T13:39:02.000Z",
             "created_by_ref": "identity--f8b6ee06-9176-40b8-8127-f3d1ac0b30d6",
             "first_observed": "2019-08-23T13:39:02.000Z",
