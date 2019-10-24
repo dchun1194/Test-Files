@@ -10,7 +10,7 @@
             "type": "identity"
         },
         {
-            "created": "2019-08-23T14:38:59.000Z",
+            "created": "2019-10-23T14:38:59.000Z",
             "created_by_ref": "identity--f8b6ee06-9176-40b8-8127-f3d1ac0b30d6",
             "first_observed": "2019-08-23T14:38:59.000Z",
             "id": "observed-data--5fc544cd-515e-41cc-829e-05b3379bd36c",
@@ -21,7 +21,7 @@
                 "0": {
                     "resolves_to_refs": "2",
                     "type": "ipv4-addr",
-                    "value": "192.168.0.8"
+                    "value":
                 },
                 "1": {
                     "dst_port": 1120,
@@ -40,7 +40,7 @@
                 "3": {
                     "resolves_to_refs": "4",
                     "type": "ipv4-addr",
-                    "value": "192.168.0.8"
+                    "value":
                 },
                 "4": {
                     "type": "mac-addr",
@@ -48,14 +48,14 @@
                 },
                 "5": {
                     "hashes": {
-                        "SHA-256": "c6edaa1e6125faddacb34f5f567cbb78abb1c138f970d914b95fdd4499052aa0"
+                        "SHA-256":
                     },
                     "type": "file"
                 },
                 "6": {
                     "account_login": "DanielJones",
                     "type": "user-account",
-                    "user_id": "DJones"
+                    "user_id": "DanielJones"
                 },
                 "7": {
                     "type": "url",
@@ -79,7 +79,7 @@
               "log_source_id": 212,
               "log_source_name": "AWS CloudTrail",
               "identity_ip": "192.168.0.8",
-              "utf8_payload": "<13>Oct  2 09:17:51 localhost :{\"name\":\"pack_qradar_process_open_sockets\",\"hostIdentifier\":\"localhost.localdomain\",\"calendarTime\":\"Wed Oct  2 12:17:51 2019 UTC\",\"unixTime\":1570018671,\"epoch\":0,\"counter\":38339,\"decorations\":{\"host_uuid\":\"785E2142-FCE0-52FE-5E0C-B44089E6B909\",\"last_logged_in_user\":\"\"},\"columns\":{\"Unique_ID\":\"13986-172.16.89.115-42018-785E2142-FCE0-52FE-5E0C-B44089E6B909-process_open_sockets\",\"cmdline\":\"/usr/sbin/syslog-ng -F -p /var/run/syslogd.pid\",\"family\":\"2\",\"local_address\":\"172.16.89.115\",\"local_port\":\"42018\",\"net_namespace\":\"4026531956\",\"path\":\"\",\"pid\":\"13986\",\"process_name\":\"syslog-ng\",\"protocol\":\"6\",\"query_name\":\"process_open_sockets\",\"remote_address\":\"172.16.89.201\",\"remote_port\":\"12468\",\"state\":\"ESTABLISHED\",\"uid\":\"0\",\"username\":\"root\"},\"action\":\"added\"}\n",
+              "utf8_payload": "<13>Oct  2 09:17:51 localhost :"accountId":"911534260404","accessKeyId":"ASIA5IO5NAC2OIBXQ4NY","userName":"Daniel","sessionContext":{"attributes":{"mfaAuthenticated":"false","creationDate":"2018-09-28T13:40:25Z"}},"invokedBy":"Daniel"},"eventTime":"2018-06-09T21:08:04Z","eventSource":"s3.amazonaws.com","eventName":"GetObject","awsRegion":"us-west-2","sourceIPAddress":"67.229.97.229","userAgent":"[aws-cli/1.15.57 Python/2.7.14+ Linux/4.15.0-kali2-amd64 botocore/1.10.56]","requestParameters":{"X-Amz-Date":"20180609T210803Z","bucketName":"db_backups2032","response-content-disposition":"inline","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-SignedHeaders":"host","X-Amz-Expires":"300","key":"fullDB_dump30102018.dump"},"responseElements":null,"additionalEventData":{"x-amz-id-2":"aOFvDQjetBtTbrR6zfhmvFJEFS1dOdmSucSEVzd70yIwpLg6pSCalFewtoVchOzcSLKQswDjlAQ="},"requestID":"4D551A01693DE04D","eventID":"73de1499-c6d0-4faa-84b3-f19f607a7a8d","readOnly":true,"resources":[{"type":"AWS::S3::Object","ARN":"arn:aws:s3:::mystorage2007/fullDB_dump30102018.dump"},{"accountId":"911534260404","type":"AWS::S3::Bucket","ARN":"arn:aws:s3:::db_backups2032"}],"eventType":"AwsApiCall","recipientAccountId":"911534260404"},
               "magnitude": 5 }
           },
           {
