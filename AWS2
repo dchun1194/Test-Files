@@ -58,9 +58,9 @@
             },
             "x_com_ibm_ariel": {
                 "devicetype": 18,
-                "qid_name": "AWS CloudTrail Message",
+                "qid_name": "Object Downloaded",
                 "qid": 67500346,
-                "category_name": "Object Downloaded",
+                "category_name": "AWS CloudTrail Message",
                 "category_id": 7036,
                 "log_source_id": 63,
                 "log_source_name": "AWS CloudTrail",
