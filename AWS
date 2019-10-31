@@ -47,6 +47,10 @@
                     "type": "user-account",
                     "user_id": "DanielJones"
                 },
+                "6": {
+                    "type": "file-name",
+                    "path": "CustomerDataOctober"
+                },
                 "9": {
                     "type": "domain",
                     "path": "s3.amazonaws.com"
