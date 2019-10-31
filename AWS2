@@ -34,6 +34,11 @@
                     "type": "mac-addr",
                     "value": "00:00:00:00:00:00"
                 },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.8",
+                    "resolves_to_refs": "4"
+                },
                 "4": {
                     "type": "mac-addr",
                     "value": "00:00:00:00:00:00"
