@@ -17,7 +17,31 @@
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "67.229.97.229"
+                    "value": "67.229.97.229",
+                    "resolves_to_refs": "2"
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": " ",
+                    "resolves_to_refs": "4"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
                 },
                 "5": {
                     "type": "user-account",
@@ -37,12 +61,8 @@
                 }
             },
             "x_com_ibm_ariel": {
-                "devicetype": 18,
                 "qid_name": "Object Downloaded",
-                "qid": 67500346,
                 "category_name": "AWS CloudTrail Message",
-                "category_id": 7036,
-                "log_source_id": 63,
                 "log_source_name": "AWS CloudTrail"
             },
             "first_observed": "2019-10-20T16:42:58.140Z",
