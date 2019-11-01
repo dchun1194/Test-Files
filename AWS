@@ -48,8 +48,8 @@
                     "user_id": "DanielJones"
                 },
                 "6": {
-                    "type": "file-name",
-                    "path": "CustomerDataOctober"
+                    "type": "file",
+                    "name": "CustomerDataOctober"
                 },
                 "9": {
                     "type": "domain",
