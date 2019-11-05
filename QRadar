@@ -1106,6 +1106,71 @@
             "number_observed": 1
         },
         {
+            "created": "2019-08-23T14:35:12.264Z",
+            "created_by_ref": "identity--49a7f37c-1f9f-4034-ba40-ec1e3625edf9",
+            "first_observed": "2019-08-23T14:35:12.264Z",
+            "id": "observed-data--0b634901-6947-4dde-9677-5856ccd3b642",
+            "last_observed": "2019-08-23T14:35:12.264Z",
+            "modified": "2019-08-23T14:35:12.264Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "resolves_to_refs": "2",
+                    "type": "ipv4-addr",
+                    "value": "192.168.11.44"
+                },
+                "1": {
+                    "dst_port": 0,
+                    "dst_ref": "3",
+                    "protocols": [
+                        "reserved"
+                    ],
+                    "src_port": 0,
+                    "src_ref": "0",
+                    "type": "network-traffic"
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "resolves_to_refs": "4",
+                    "type": "ipv4-addr",
+                    "value": "127.0.0.1"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "payload_bin": "TEVFRjoxLjB8Qml0OXxQYXJpdHl8MTkyLjE2OC4wLjF8TmV3X2ZpbGVfb25fbmV0d29ya3xjYXQ9\nRGlzY292ZXJ5CXNldj00CWRldlRpbWU9SnVuIDE0IDIwMTAgMTA6MjU6MzUuMDAwIFVUQwltc2c9\nU2VydmVyIGRpc2NvdmVyZWQgbmV3IGZpbGUgJ2M6XFByb2dyYW0gRmlsZXNcUVJhZGFyXGZpbGUx\nLmV4dCcgCWV4dGVybmFsSWQ9MTIJc3JjPTE5Mi4xNjguMTEuNDQJc3JjSG9zdE5hbWU9Q0xJTwlz\ncmNQcm9jZXNzPWM6XFByb2dyYW0gRmlsZXNcUVJhZGFyX3YxXEFkbWluaXN0cmF0b3IJZmlsZVBh\ndGg9YzpcUHJvZ3JhbSBGaWxlc1xRUmFkYXJcZmlsZTEuZXh0CWZpbGVOYW1lPXVhdF9maWxlXzUu\nbXNpCWZpbGVIYXNoPWRjZTlhMDY2NDYxMTNkZWM0YWVjNTE1YjNjOWEzYzllYWI5ZDIwY2NhNDVi\nZWVhMDE1MjgxYzM3NmMwOWIzZDcJZmlsZUlkPTQyCXBvbGljeT1EZWZhdWx0IFBvbGljeQlkc3RI\nb3N0PW1lZ2FuZQo=",
+                    "type": "artifact"
+                },
+                "6": {
+                    "hashes": {
+                        "SHA-256": "dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7"
+                    },
+                    "name": "uat_file_5.msi",
+                    "type": "file"
+                }
+            },
+            "type": "observed-data",
+            "x_com_ibm_ariel": {
+                "category_id": "8060",
+                "category_name": "Alert",
+                "identity_ip": "0.0.0.0",
+                "log_source_id": "165",
+                "log_source_name": "bit9",
+                "magnitude": "5",
+                "qid": "59500044",
+                "qid_name": "New File On Network",
+                "utf8_payload": "LEEF:1.0|Bit9|Parity|192.168.0.1|New_file_on_network|cat=Discovery\tsev=4\tdevTime=Jun 14 2010 10:25:35.000 UTC\tmsg=Server discovered new file 'c:\\Program Files\\QRadar\\file1.ext' \texternalId=12\tsrc=192.168.11.44\tsrcHostName=CLIO\tsrcProcess=c:\\Program Files\\QRadar_v1\\Administrator\tfilePath=c:\\Program Files\\QRadar\\file1.ext\tfileName=uat_file_5.msi\tfileHash=dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7\tfileId=42\tpolicy=Default Policy\tdstHost=megane\n"
+            },
+            "first_observed": "2019-10-10T16:42:58.149Z",
+            "last_observed": "2019-10-10T16:42:58.149Z",
+            "number_observed": 1
+        },
+        {
             "id": "observed-data--4d9093df-3be7-421a-81d2-8ceedf1f3838",
             "type": "observed-data",
             "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
