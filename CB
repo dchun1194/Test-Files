@@ -2,20 +2,20 @@
     "id": "bundle--a625c45a-c49c-488c-a9c0-8ff9529ae1ad",
     "objects": [
         {
-            "created": "2019-08-23T11:42:37.424Z",
+            "created": "2020-01-02T11:42:37.424Z",
             "id": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
             "identity_class": "system",
-            "modified": "2019-08-23T11:42:37.424Z",
+            "modified": "2020-01-02T11:42:37.424Z",
             "name": "carbonblack",
             "type": "identity"
         },
         {
-            "created": "2019-07-24T16:59:16.578Z",
+            "created": "2020-01-02T16:59:16.578Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-07-24T16:59:16.578Z",
+            "first_observed": "2020-01-02T16:59:16.578Z",
             "id": "observed-data--626a6ca7-1145-4a66-b695-e1fe8090c319",
-            "last_observed": "2019-07-24T16:59:16.578Z",
-            "modified": "2019-07-24T16:59:16.578Z",
+            "last_observed": "2020-01-02T16:59:16.578Z",
+            "modified": "2020-01-02T16:59:16.578Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -28,7 +28,7 @@
                 "1": {
                     "binary_ref": "0",
                     "command_line": "C:\\File\\System\\svctest.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV",
-                    "created": "2019-07-24T16:59:16.578Z",
+                    "created": "2020-01-02T16:59:16.578Z",
                     "creator_user_ref": "8",
                     "name": "svctest.exe",
                     "opened_connection_refs": [
@@ -142,12 +142,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-07-30T13:05:55.782Z",
+            "created": "2020-01-02T13:05:55.782Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-07-30T13:05:55.782Z",
+            "first_observed": "2020-01-02T13:05:55.782Z",
             "id": "observed-data--9e1a8ec9-21e1-43a0-acc8-6e69eced2d21",
-            "last_observed": "2019-07-30T13:05:55.782Z",
-            "modified": "2019-07-30T13:05:55.782Z",
+            "last_observed": "2020-01-02T13:05:55.782Z",
+            "modified": "2020-01-02T13:05:55.782Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -160,7 +160,7 @@
                 "1": {
                     "binary_ref": "0",
                     "command_line": "C:\\File\\System\\svctest.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV",
-                    "created": "2019-07-30T13:05:55.782Z",
+                    "created": "2020-01-02T13:05:55.782Z",
                     "creator_user_ref": "8",
                     "name": "svctest.exe",
                     "opened_connection_refs": [
@@ -208,12 +208,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-07-30T13:05:55.782Z",
+            "created": "2020-01-02T13:05:55.782Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-07-30T13:05:55.782Z",
+            "first_observed": "2020-01-02T13:05:55.782Z",
             "id": "observed-data--6d694299-b685-4131-a18b-a8893e1dd653",
-            "last_observed": "2019-07-30T13:05:55.782Z",
-            "modified": "2019-07-30T13:05:55.782Z",
+            "last_observed": "2020-01-02T13:05:55.782Z",
+            "modified": "2020-01-02T13:05:55.782Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -226,7 +226,7 @@
                 "1": {
                     "binary_ref": "0",
                     "command_line": "C:\\File\\System\\svctest.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV",
-                    "created": "2019-07-30T13:05:55.782Z",
+                    "created": "2020-01-02T13:05:55.782Z",
                     "creator_user_ref": "8",
                     "name": "svctest.exe",
                     "opened_connection_refs": [
@@ -274,12 +274,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-07-30T13:05:59.127Z",
+            "created": "2020-01-02T13:05:59.127Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-07-30T13:05:59.127Z",
+            "first_observed": "2020-01-02T13:05:59.127Z",
             "id": "observed-data--1c3a53f0-621b-43fd-bcfb-c1f051edc31f",
-            "last_observed": "2019-07-30T13:05:59.127Z",
-            "modified": "2019-07-30T13:05:59.127Z",
+            "last_observed": "2020-01-02T13:05:59.127Z",
+            "modified": "2020-01-02T13:05:59.127Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -292,7 +292,7 @@
                 "1": {
                     "binary_ref": "0",
                     "command_line": "\"C:\\Program Files (x86)\\TeamViewer\\TeamViewer.exe\"",
-                    "created": "2019-07-30T13:05:59.127Z",
+                    "created": "2020-01-02T13:05:59.127Z",
                     "creator_user_ref": "8",
                     "name": "teamviewer.exe",
                     "opened_connection_refs": [
@@ -340,12 +340,12 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-07-30T13:05:59.127Z",
+            "created": "2020-01-02T13:05:59.127Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-07-30T13:05:59.127Z",
+            "first_observed": "2020-01-02T13:05:59.127Z",
             "id": "observed-data--50cf225e-e1df-4046-b889-f929f7ab99ca",
-            "last_observed": "2019-07-30T13:05:59.127Z",
-            "modified": "2019-07-30T13:05:59.127Z",
+            "last_observed": "2020-01-02T13:05:59.127Z",
+            "modified": "2020-01-02T13:05:59.127Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -358,7 +358,7 @@
                 "1": {
                     "binary_ref": "0",
                     "command_line": "\"C:\\Program Files (x86)\\TeamViewer\\TeamViewer.exe\"",
-                    "created": "2019-07-30T13:05:59.127Z",
+                    "created": "2020-01-02T13:05:59.127Z",
                     "creator_user_ref": "8",
                     "name": "teamviewer.exe",
                     "opened_connection_refs": [
@@ -406,11 +406,11 @@
             "type": "observed-data"
         },
         {
-            "created": "2019-07-30T13:05:59.127Z",
+            "created": "2020-01-02T13:05:59.127Z",
             "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
-            "first_observed": "2019-07-30T13:05:59.127Z",
+            "first_observed": "2020-01-02T13:05:59.127Z",
             "id": "observed-data--6c778f59-35a0-456d-ab40-8e1f4d805ccb",
-            "last_observed": "2019-07-30T13:05:59.127Z",
+            "last_observed": "2020-01-02T13:05:59.127Z",
             "modified": "2019-07-30T13:05:59.127Z",
             "number_observed": 1,
             "objects": {
