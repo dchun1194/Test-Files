@@ -12,8 +12,8 @@
             "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-20T17:19:32.138Z",
-            "modified": "2019-10-20T17:19:32.138Z",
+            "created": "2020-01-20T17:19:32.138Z",
+            "modified": "2020-01-20T17:19:32.138Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -65,8 +65,8 @@
                 "category_name": "AWS CloudTrail Message",
                 "log_source_name": "AWS CloudTrail"
             },
-            "first_observed": "2019-10-20T16:42:58.140Z",
-            "last_observed": "2019-10-20T16:42:58.140Z",
+            "first_observed": "2020-01-20T16:42:58.140Z",
+            "last_observed": "2020-01-20T16:42:58.140Z",
             "number_observed": 1
         }
     ]
