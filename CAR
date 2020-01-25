@@ -1,0 +1,470 @@
+{
+    "report": {"_key": "1.56840513733e+12", "timestamp": 1568405137326.274, "type": "Qradar API", "description": "Qradar imports"}, 
+    "source": {"_key": "e26afaa8b54048bea87b4ac09b536bbf", "name": "stable-tor01-vm-sa-dataexplorer.qradar.ibmcloud-dev.com", "description": "reports coming from source e26afaa8b54048bea87b4ac09b536bbf"}, 
+    "source_report": [{"active": true, "timestamp": 1568405137326.274, "_from": "source/e26afaa8b54048bea87b4ac09b536bbf", "_to": "report/1.56840513733e+12"}],
+    "asset": [{"assetid": "87281", "external_id": "87281", "name": "Daniel Laptop"}], 
+    "ipaddress": [
+        {"_key": "192.168.0.8", "assetid": "87281", "external_id": "87281"}, 
+        {"_key": "192.168.0.9", "assetid": "87281"}, 
+        {"_key": "195.212.29.70", "assetid": "87281"}
+    ], 
+"macaddress": [{"_key": "00:14:22:01:23:45"}], 
+"user": [{"_key": "daniel.jones", "fullname":"Daniel Jones", "assetid": "87281", "external_id": "87281", "group": null}], 
+"hostname": [{"_key": "DanielJones_laptop"}],
+
+"vulnerability": [
+    {
+      "base_score": 4.9,
+      "car_shard": "null",
+      "disclosed_on": 1495076400000,
+      "external_id": "190578",
+      "name": "CVE-2017-14106 - Linux - Denial of Service Issue",
+      "published_on": 1504234800000,
+      "updated_on": 1506355320000,
+      "vcvssbmid": "155541",
+      "xref_properties": [
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15005-18110901 [][SUSE][2018-11-09] 181109 - SUSE-SU-2018:3689-1 - Mandatory update for the Linux Kernel",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502136",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "Bugtraq ID",
+          "extref_value": "100878",
+          "q_extref_typeid": "5"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15005-18032305 [][SUSE][2018-03-23] 180323 - SUSE-SU-2018:0785-1 - Mandatory update for the Linux Kernel",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502061",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:502159",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "12033-36980101 [][Ubuntu][2018-07-02] USN-3698-1 - Linux Kernel Vulnerabilities",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502057",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.opensuse.security:def:201714106",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15178-17320001 [][Oracle Linux][2017-11-15] ELSA-2017-3200 - Oracle Linux kernel security and bug fix update",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502217",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:703854",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15178-17320002 [][Oracle Linux][2017-11-15] ELSA-2017-3200 - Oracle Linux kernel security and bug fix update",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:703844",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:204705",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "12015-18111302 [][SUSE][2018-11-13] 181113 - SUSE-SU-2018:3746-1 - Mandatory update for the Linux Kernel",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "com.redhat.rhsa:def:20182172",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:703848",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15103-17293001 [][Oracle Linux][2017-10-19] ELSA-2017-2930 - Oracle Linux kernel security and bug fix update",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502220",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "com.redhat.rhsa:def:20172930",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "12033-36980102 [][Ubuntu][2018-07-02] USN-3698-1 - Linux Kernel Vulnerabilities",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "RedHat RHSA",
+          "extref_value": "RHSA-2018:2172",
+          "q_extref_typeid": "18"
+        },
+        {
+          "extref_typename": "ISS X-Force Tag",
+          "extref_value": "linux-kernel-cve201714106-dos",
+          "q_extref_typeid": "120001"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15005-18081406 [][SUSE][2018-08-14] 180814 - SUSE-SU-2018:2328-1 - Mandatory update for the Linux Kernel",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502178",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "ISS X-Force ID",
+          "extref_value": "131363",
+          "q_extref_typeid": "13"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15005-18032307 [][SUSE][2018-03-23] 180323 - SUSE-SU-2018:0785-1 - Mandatory update for the Linux Kernel",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502177",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "Vendor Specific Advisory URL",
+          "extref_value": "https://github.com/torvalds/linux/commit/499350a5a6e7512d9ed369ed63a4244b6536f4f8",
+          "q_extref_typeid": "8"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15178-18404101 [][Oracle Linux][2018-02-26] ELSA-2018-4041 - Oracle Linux Unbreakable Enterprise kernel security update",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502215",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "QVM ID",
+          "extref_value": "103639",
+          "q_extref_typeid": "110000"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "12033-37420103 [][Ubuntu][2018-08-14] USN-3742-1 - Linux Kernel Vulnerabilities",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502258",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "com.redhat.rhsa:def:20173200",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15178-18404102 [][Oracle Linux][2018-02-26] ELSA-2018-4041 - Oracle Linux Unbreakable Enterprise kernel security update",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "Vendor Specific Advisory URL",
+          "extref_value": "http://www.ibm.com/support/docview.wss?uid=ibm10715697",
+          "q_extref_typeid": "8"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:204579",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "12015-18111301 [][SUSE][2018-11-13] 181113 - SUSE-SU-2018:3746-1 - Mandatory update for the Linux Kernel",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "Vendor Specific Advisory URL",
+          "extref_value": "http://www.ibm.com/support/docview.wss?uid=ibm10715755",
+          "q_extref_typeid": "8"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502043",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15103-18404001 [][Oracle Linux][2018-02-26] ELSA-2018-4040 - Oracle Linux Unbreakable Enterprise kernel security update",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502138",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502042",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15178-17363501 [][Oracle Linux][2017-11-02] ELSA-2017-3635 - Oracle Linux Unbreakable Enterprise kernel security update",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502137",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502089",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15103-17293002 [][Oracle Linux][2017-10-20] ELSA-2017-2930-1 - Oracle Linux ELSA-2017-2930-1",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "Other Advisory URL",
+          "extref_value": "http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=499350a5a6e7512d9ed369ed63a4244b6536f4f8",
+          "q_extref_typeid": "24"
+        },
+        {
+          "extref_typename": "CVE ID",
+          "extref_value": "2017-14106",
+          "q_extref_typeid": "3"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15103-17363501 [][Oracle Linux][2017-11-02] ELSA-2017-3635 - Oracle Linux Unbreakable Enterprise kernel security update",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502055",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:1502088",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "IBM Endpoint Manager Patch",
+          "extref_value": "15178-18404001 [][Oracle Linux][2018-02-26] ELSA-2018-4040 - Oracle Linux Unbreakable Enterprise kernel security update",
+          "q_extref_typeid": "120002"
+        },
+        {
+          "extref_typename": "Other Advisory URL",
+          "extref_value": "https://github.com/torvalds/linux/commit/499350a5a6e7512d9ed369ed63a4244b6536f4f8",
+          "q_extref_typeid": "24"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:502194",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "Other Advisory URL",
+          "extref_value": "https://www.mail-archive.com/netdev@vger.kernel.org/msg186255.html",
+          "q_extref_typeid": "24"
+        },
+        {
+          "extref_typename": "Security Tracker",
+          "extref_value": "1039549",
+          "q_extref_typeid": "31"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:703847",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:703849",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "com.redhat.rhsa:def:20172931",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:603111",
+          "q_extref_typeid": "35"
+        },
+        {
+          "extref_typename": "OVAL ID",
+          "extref_value": "org.secpod.oval:def:703850",
+          "q_extref_typeid": "35"
+        }
+      ]
+    },
+    {
+        "base_score": 5,
+        "car_shard": "null",
+        "disclosed_on": 1023591600000,
+        "external_id": "2220",
+        "name": "BizDesign - ImageFolio - Authorized User Web Root Disclosure Vulnerability",
+        "published_on": 1023678000000,
+        "updated_on": 1213368720000,
+        "vcvssbmid": "1872",
+        "xref_properties": [
+          {
+            "extref_typename": "OSVDB",
+            "extref_value": "4576",
+            "q_extref_typeid": "120000"
+          },
+          {
+            "extref_typename": "ISS X-Force ID",
+            "extref_value": "9308",
+            "q_extref_typeid": "13"
+          },
+          {
+            "extref_typename": "OSVDB",
+            "extref_value": "4573",
+            "q_extref_typeid": "120000"
+          },
+          {
+            "extref_typename": "Mail List Post",
+            "extref_value": "http://cert.uni-stuttgart.de/archive/bugtraq/2002/06/msg00078.html",
+            "q_extref_typeid": "30"
+          },
+          {
+            "extref_typename": "ISS X-Force Tag",
+            "extref_value": "imagefolio-setup-access",
+            "q_extref_typeid": "120001"
+          },
+          {
+            "extref_typename": "CVE ID",
+            "extref_value": "2002-1801",
+            "q_extref_typeid": "3"
+          },
+          {
+            "extref_typename": "OSVDB",
+            "extref_value": "31772",
+            "q_extref_typeid": "120000"
+          },
+          {
+            "extref_typename": "Vendor URL",
+            "extref_value": "http://www.imagefolio.com/",
+            "q_extref_typeid": "21"
+          },
+          {
+            "extref_typename": "QVM ID",
+            "extref_value": "3258",
+            "q_extref_typeid": "110000"
+          },
+          {
+            "extref_typename": "Vendor Specific Advisory URL",
+            "extref_value": "http://marc.theaimsgroup.com/?l=bugtraq&m=102373053829427&w=2",
+            "q_extref_typeid": "8"
+          },
+          {
+            "extref_typename": "Related OSVDB ID",
+            "extref_value": "4574",
+            "q_extref_typeid": "12"
+          },
+          {
+            "extref_typename": "Bugtraq ID",
+            "extref_value": "4975",
+            "q_extref_typeid": "5"
+          },
+          {
+            "extref_typename": "Vendor Specific Advisory URL",
+            "extref_value": "http://www.imagefolio.com/",
+            "q_extref_typeid": "8"
+          },
+          {
+            "extref_typename": "Related OSVDB ID",
+            "extref_value": "4573",
+            "q_extref_typeid": "12"
+          },
+          {
+            "extref_typename": "CVE ID",
+            "extref_value": "2002-1867",
+            "q_extref_typeid": "3"
+          },
+          {
+            "extref_typename": "Bugtraq ID",
+            "extref_value": "4976",
+            "q_extref_typeid": "5"
+          }
+        ]
+      }
+  ],
+
+"user_ipaddress": [
+    {"source": "e26afaa8b54048bea87b4ac09b536bbf", "timestamp": 1568405137326.274, "_from": "user/daniel.jones", "report": "1.56840513733e+12", "_to": "ipaddress/192.168.0.8", "active": true}, 
+    {"source": "e26afaa8b54048bea87b4ac09b536bbf", "timestamp": 1568405137326.274, "_from": "user/daniel.jones", "report": "1.56840513733e+12", "_to": "ipaddress/192.168.0.9", "active": true}, 
+    {"source": "e26afaa8b54048bea87b4ac09b536bbf", "timestamp": 1568405137326.274, "_from": "user/daniel.jones", "report": "1.56840513733e+12", "_to": "ipaddress/195.212.29.70", "active": true}
+],
+"ipaddress_hostname":[
+    {"source": "e26afaa8b54048bea87b4ac09b536bbf", "timestamp": 1568405137326.274, "_from": "ipaddress/192.168.0.8", "report": "1.56840513733e+12", "_to": "hostname/Daniel_Jones_laptop", "active": true}
+],
+"ipaddress_macaddress": [
+    {"source": "e26afaa8b54048bea87b4ac09b536bbf", "timestamp": 1568405137326.274, "_from": "ipaddress/192.168.0.8", "report": "1.56840513733e+12", "_to": "macaddress/00:14:22:01:23:45", "active": true}
+],
+"ipaddress_vulnerability": [
+    {"source": "e26afaa8b54048bea87b4ac09b536bbf", "timestamp": 1568405137326.274, "_from": "ipaddress/192.168.0.8", "report": "1.56840513733e+12", "_to_external_id": "190578", "active": true},
+    {"source": "e26afaa8b54048bea87b4ac09b536bbf", "timestamp": 1568405137326.274, "_from": "ipaddress/192.168.0.8", "report": "1.56840513733e+12", "_to_external_id": "2220", "active": true}
+],
+"asset_ipaddress": [
+    {"source": "e26afaa8b54048bea87b4ac09b536bbf", "timestamp": 1568405137326.274, "_from_external_id": "87281", "report": "1.56840513733e+12", "_to": "ipaddress/192.168.0.8", "active": true}
+],
+"asset_vulnerability": [
+    {"_from_external_id": "87281", "_to_external_id": "190578", "active": true, "timestamp": 1568405137326.274, "report": "1.56840513733e+12", "source": "e26afaa8b54048bea87b4ac09b536bbf"},
+    {"_from_external_id": "87281", "_to_external_id": "2220", "active": true, "timestamp": 1568405137326.274, "report": "1.56840513733e+12", "source": "e26afaa8b54048bea87b4ac09b536bbf"}
+],
+"report_ipaddress": [
+    {"active": true, "timestamp": 1568405137326.274, "_from": "report/1.56840513733e+12", "source": "e26afaa8b54048bea87b4ac09b536bbf", "_to": "ipaddress/192.168.0.8"}
+],
+"report_asset": [
+    {"active": true, "source": "e26afaa8b54048bea87b4ac09b536bbf", "_from": "report/1.56840513733e+12", "_to_external_id": "87281", "timestamp": 1568405137326.274}
+]
+}
