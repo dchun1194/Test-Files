@@ -9,8 +9,8 @@
         {"_key": "195.212.29.70", "assetid": "87281"}
     ], 
 "macaddress": [{"_key": "00:14:22:01:23:45"}], 
-"user": [{"_key": "DanielJones", "fullname":"Daniel Jones", "assetid": "87281", "external_id": "87281", "group": null}], 
-"hostname": [{"_key": "DanielJones_laptop"}],
+"user": [{"_key": "Daniel.Jones", "fullname":"Daniel Jones", "assetid": "87281", "external_id": "87281", "group": null}], 
+"hostname": [{"_key": "Daniel_Jones_laptop"}],
 
 "vulnerability": [
     {
