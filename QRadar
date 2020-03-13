@@ -141,6 +141,9 @@
                 "8": {
                     "type": "file",
                     "name": "c64.exe",
+                    "hashes": {
+                        "UNKNOWN": "File Hash"
+                    },
                     "parent_directory_ref": "9"
                 },
                 "9": {
@@ -296,6 +299,9 @@
                 },
                 "8": {
                     "type": "file",
+                    "hashes": {
+                        "UNKNOWN": "File Hash"
+                    },
                     "name": "c64.exe",
                     "parent_directory_ref": "9"
                 },
@@ -453,6 +459,9 @@
                 "8": {
                     "type": "file",
                     "name": "c64.exe",
+                    "hashes": {
+                        "UNKNOWN": "File Hash"
+                    },
                     "parent_directory_ref": "9"
                 },
                 "9": {
@@ -609,6 +618,9 @@
                 "8": {
                     "type": "file",
                     "name": "c64.exe",
+                    "hashes": {
+                        "UNKNOWN": "File Hash"
+                    },
                     "parent_directory_ref": "9"
                 },
                 "9": {
@@ -1241,59 +1253,61 @@
             "created": "2020-01-03T19:28:19.713Z",
             "modified": "2020-01-03T19:28:19.713Z",
             "objects": {
-              "0": {
-                "type": "ipv4-addr",
-                "value": "192.168.0.8",
-                "resolves_to_refs": "2"
-              },
-              "1": {
-                "type": "network-traffic",
-                "src_ref": "0",
-                "src_port": 0,
-                "dst_ref": "3",
-                "dst_port": 0,
-                "protocols": ["reserved"]
-              },
-              "2": {
-                "type": "mac-addr",
-                "value": "00:00:00:00:00:00"
-              },
-              "3": {
-                "type": "ipv4-addr",
-                "value": "192.168.0.8",
-                "resolves_to_refs": "4"
-              },
-              "4": {
-                "type": "mac-addr",
-                "value": "00:00:00:00:00:00"
-              },
-              "5": {
-                "type": "artifact",
-                "payload_bin": "PDEzPlNlcCAgMjYgMTA6MDM6NTMgbG9jYWxob3N0IG9zcXVlcnk6IHsibmFtZSI6InBhY2tfcXJh\nZGFyX2NvbnRhaW5lcl9wcm9jZXNzZXMiLCJob3N0SWRlbnRpZmllciI6ImxvY2FsaG9zdC5sb2Nh\nbGRvbWFpbiIsImNhbGVuZGFyVGltZSI6IkZyaSBTZXAgIDI2IDEyOjEzOjI0IDIwMTkgVVRDIiwi\ndW5peFRpbWUiOjE1Njk1MDAwMDQsImVwb2NoIjowLCJjb3VudGVyIjoyNTA0LCJkZWNvcmF0aW9u\ncyI6eyJob3N0X3V1aWQiOiI3ODVFMjE0Mi1GQ0UwLTUyRkUtNUUwQy1CNDQwODlFNkI5MDkiLCJs\nYXN0X2xvZ2dlZF9pbl91c2VyIjoic3dhdCJ9LCJjb2x1bW5zIjp7IlVuaXF1ZV9JRCI6ImVlYWZl\nNTA3ZmUyYjQ2ZTJlY2MwZWRmMGQzOTk2YmY4MzZlMDliNjAyY2I5NjFhZWRiNThhNjUwZjM4N2Iy\nN2ItMjQ4MjktMjQ4MDMtNzg1RTIxNDItRkNFMC01MkZFLTVFMEMtQjQ0MDg5RTZCOTA5LWRvY2tl\ncl9jb250YWluZXJfcHJvY2Vzc2VzIiwicXVlcnlfbmFtZSI6ImRvY2tlcl9jb250YWluZXJfcHJv\nY2Vzc2VzIiwiY21kbGluZSI6Im5mc2QiLCJjb250YWluZXJfaWQiOiJlZWFmZTUwN2ZlMmI0NmUy\nZWNjMGVkZjBkMzk5NmIiLCJjb250YWluZXJfbmFtZSI6Ii9oYXBweV9iZWF2ZXIiLCJlZ2lkIjoi\nMCIsImV1aWQiOiIwIiwiZ2lkIjoiMCIsImltYWdlX2lkIjoiYTJhMTVmZWJjZGYzNjJmNjExNWU4\nMDFkMzdiNWU2MGQ2ZmFhZWVkY2I5ODk2MTU1ZTVmZTlkNzU0MDI1YmUxMiIsInByb2Nlc3NfbmFt\nZSI6Im5mc2QiLCJwYXJlbnRfcHJvY2Vzc19uYW1lIjoiYmFzaCIsInBhcmVudF9wcm9jZXNzX3Bh\ndGgiOiIvdXNyL2Jpbi9iYXNoIiwicGdyb3VwIjoiMjQ4MjkiLCJwaWQiOiIyNDgyOSIsInNnaWQi\nOiIwIiwic2hhMjU2IjoiMjlkODg3M2QwOTZjOWFiYjNlOWE2NTg0Yzk5MmVlNjAiLCJzdGF0ZSI6\nIlMiLCJzdWlkIjoiMCIsInVpZCI6IjAiLCJ1c2VyIjoic3dhdCJ9LCJhY3Rpb24iOiJhZGRlZCJ9\nCg=="
-              },
-              "6": {
-                "type": "file",
-                "hashes": {
-                  "UNKNOWN": "File Hash"
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.8",
+                    "resolves_to_refs": "2"
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.8",
+                    "resolves_to_refs": "4"
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "PDEzPlNlcCAgMjYgMTA6MDM6NTMgbG9jYWxob3N0IG9zcXVlcnk6IHsibmFtZSI6InBhY2tfcXJh\nZGFyX2NvbnRhaW5lcl9wcm9jZXNzZXMiLCJob3N0SWRlbnRpZmllciI6ImxvY2FsaG9zdC5sb2Nh\nbGRvbWFpbiIsImNhbGVuZGFyVGltZSI6IkZyaSBTZXAgIDI2IDEyOjEzOjI0IDIwMTkgVVRDIiwi\ndW5peFRpbWUiOjE1Njk1MDAwMDQsImVwb2NoIjowLCJjb3VudGVyIjoyNTA0LCJkZWNvcmF0aW9u\ncyI6eyJob3N0X3V1aWQiOiI3ODVFMjE0Mi1GQ0UwLTUyRkUtNUUwQy1CNDQwODlFNkI5MDkiLCJs\nYXN0X2xvZ2dlZF9pbl91c2VyIjoic3dhdCJ9LCJjb2x1bW5zIjp7IlVuaXF1ZV9JRCI6ImVlYWZl\nNTA3ZmUyYjQ2ZTJlY2MwZWRmMGQzOTk2YmY4MzZlMDliNjAyY2I5NjFhZWRiNThhNjUwZjM4N2Iy\nN2ItMjQ4MjktMjQ4MDMtNzg1RTIxNDItRkNFMC01MkZFLTVFMEMtQjQ0MDg5RTZCOTA5LWRvY2tl\ncl9jb250YWluZXJfcHJvY2Vzc2VzIiwicXVlcnlfbmFtZSI6ImRvY2tlcl9jb250YWluZXJfcHJv\nY2Vzc2VzIiwiY21kbGluZSI6Im5mc2QiLCJjb250YWluZXJfaWQiOiJlZWFmZTUwN2ZlMmI0NmUy\nZWNjMGVkZjBkMzk5NmIiLCJjb250YWluZXJfbmFtZSI6Ii9oYXBweV9iZWF2ZXIiLCJlZ2lkIjoi\nMCIsImV1aWQiOiIwIiwiZ2lkIjoiMCIsImltYWdlX2lkIjoiYTJhMTVmZWJjZGYzNjJmNjExNWU4\nMDFkMzdiNWU2MGQ2ZmFhZWVkY2I5ODk2MTU1ZTVmZTlkNzU0MDI1YmUxMiIsInByb2Nlc3NfbmFt\nZSI6Im5mc2QiLCJwYXJlbnRfcHJvY2Vzc19uYW1lIjoiYmFzaCIsInBhcmVudF9wcm9jZXNzX3Bh\ndGgiOiIvdXNyL2Jpbi9iYXNoIiwicGdyb3VwIjoiMjQ4MjkiLCJwaWQiOiIyNDgyOSIsInNnaWQi\nOiIwIiwic2hhMjU2IjoiMjlkODg3M2QwOTZjOWFiYjNlOWE2NTg0Yzk5MmVlNjAiLCJzdGF0ZSI6\nIlMiLCJzdWlkIjoiMCIsInVpZCI6IjAiLCJ1c2VyIjoic3dhdCJ9LCJhY3Rpb24iOiJhZGRlZCJ9\nCg=="
+                },
+                "6": {
+                    "type": "file",
+                    "hashes": {
+                        "UNKNOWN": "File Hash"
+                    }
                 }
-              }
             },
             "x_com_ibm_ariel": {
-              "qid_name": "New Process in Interruptible Sleep",
-              "qid": 113000007,
-              "category_name": "Process Creation Success",
-              "category_id": 8110,
-              "log_source_id": 212,
-              "log_source_name": "OSQuery @ localhost",
-              "identity_ip": "0.0.0.0",
-              "utf8_payload": "<13>Sep  26 10:03:53 localhost osquery: {\"name\":\"pack_qradar_container_processes\",\"hostIdentifier\":\"localhost.localdomain\",\"calendarTime\":\"Fri Sep  26 12:13:24 2019 UTC\",\"unixTime\":1569500004,\"epoch\":0,\"counter\":2504,\"decorations\":{\"host_uuid\":\"785E2142-FCE0-52FE-5E0C-B44089E6B909\",\"last_logged_in_user\":\"swat\"},\"columns\":{\"Unique_ID\":\"eeafe507fe2b46e2ecc0edf0d3996bf836e09b602cb961aedb58a650f387b27b-24829-24803-785E2142-FCE0-52FE-5E0C-B44089E6B909-docker_container_processes\",\"query_name\":\"docker_container_processes\",\"cmdline\":\"nfsd\",\"container_id\":\"eeafe507fe2b46e2ecc0edf0d3996b\",\"container_name\":\"/happy_beaver\",\"egid\":\"0\",\"euid\":\"0\",\"gid\":\"0\",\"image_id\":\"a2a15febcdf362f6115e801d37b5e60d6faaeedcb9896155e5fe9d754025be12\",\"process_name\":\"nfsd\",\"parent_process_name\":\"bash\",\"parent_process_path\":\"/usr/bin/bash\",\"pgroup\":\"24829\",\"pid\":\"24829\",\"sgid\":\"0\",\"sha256\":\"29d8873d096c9abb3e9a6584c992ee60\",\"state\":\"S\",\"suid\":\"0\",\"uid\":\"0\",\"user\":\"swat\"},\"action\":\"added\"}\n",
-              "magnitude": 5
+                "qid_name": "New Process in Interruptible Sleep",
+                "qid": 113000007,
+                "category_name": "Process Creation Success",
+                "category_id": 8110,
+                "log_source_id": 212,
+                "log_source_name": "OSQuery @ localhost",
+                "identity_ip": "0.0.0.0",
+                "utf8_payload": "<13>Sep  26 10:03:53 localhost osquery: {\"name\":\"pack_qradar_container_processes\",\"hostIdentifier\":\"localhost.localdomain\",\"calendarTime\":\"Fri Sep  26 12:13:24 2019 UTC\",\"unixTime\":1569500004,\"epoch\":0,\"counter\":2504,\"decorations\":{\"host_uuid\":\"785E2142-FCE0-52FE-5E0C-B44089E6B909\",\"last_logged_in_user\":\"swat\"},\"columns\":{\"Unique_ID\":\"eeafe507fe2b46e2ecc0edf0d3996bf836e09b602cb961aedb58a650f387b27b-24829-24803-785E2142-FCE0-52FE-5E0C-B44089E6B909-docker_container_processes\",\"query_name\":\"docker_container_processes\",\"cmdline\":\"nfsd\",\"container_id\":\"eeafe507fe2b46e2ecc0edf0d3996b\",\"container_name\":\"/happy_beaver\",\"egid\":\"0\",\"euid\":\"0\",\"gid\":\"0\",\"image_id\":\"a2a15febcdf362f6115e801d37b5e60d6faaeedcb9896155e5fe9d754025be12\",\"process_name\":\"nfsd\",\"parent_process_name\":\"bash\",\"parent_process_path\":\"/usr/bin/bash\",\"pgroup\":\"24829\",\"pid\":\"24829\",\"sgid\":\"0\",\"sha256\":\"29d8873d096c9abb3e9a6584c992ee60\",\"state\":\"S\",\"suid\":\"0\",\"uid\":\"0\",\"user\":\"swat\"},\"action\":\"added\"}\n",
+                "magnitude": 5
             },
             "first_observed": "2020-01-03T13:57:22.776Z",
             "last_observed": "2020-01-03T13:57:22.776Z",
             "number_observed": 1
-          },
-          {
+        },
+        {
             "id": "observed-data--81afa14f-5463-4251-83ba-4aac261a5ea1",
             "type": "observed-data",
             "created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
