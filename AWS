@@ -17,7 +17,7 @@
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
-                    "value": "67.229.97.229",
+                    "value": "192.168.0.8",
                     "resolves_to_refs": "2"
                 },
                 "1": {
@@ -36,7 +36,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": " ",
+                    "value": "67.229.97.229",
                     "resolves_to_refs": "4"
                 },
                 "4": {
