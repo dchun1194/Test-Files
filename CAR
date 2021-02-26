@@ -16,7 +16,7 @@
     "account": [
         {
             "external_id": "account_1",
-            "name": "Amulet Barfly Quizmaster",
+            "name": "Daniel Jones",
             "created": 1597776019.168942,
             "active": true,
             "compliance_status": true,
@@ -126,7 +126,7 @@
     ],
     "asset": [
         {
-            "name": "Daniel_laptop_192",
+            "name": "DanielJones_laptop_192",
             "external_id": "DanielJones_laptop_192",
             "business_value": 50,
             "risk": 8.0,
@@ -219,7 +219,7 @@
             "_key": "SquadmateEstablishedHero_laptop_192.example.org"
         },
         {
-            "_key": "apt28.org"
+            "_key": "apt41.org"
         }
     ],
     "account_hostname": [
@@ -253,7 +253,7 @@
             "source": "Source1",
             "active": true,
             "_from_external_id": "account_1",
-            "_to": "hostname/apt28.org"
+            "_to": "hostname/apt41.org"
         },
         {
             "created": 1597776019.168942,
@@ -261,7 +261,7 @@
             "source": "Source1",
             "active": true,
             "_from_external_id": "account_2",
-            "_to": "hostname/apt28.org"
+            "_to": "hostname/apt41.org"
         },
         {
             "created": 1597776019.168942,
@@ -269,7 +269,7 @@
             "source": "Source1",
             "active": true,
             "_from_external_id": "account_3",
-            "_to": "hostname/apt28.org"
+            "_to": "hostname/apt41.org"
         }
     ],
     "asset_hostname": [
@@ -303,7 +303,7 @@
             "source": "Source1",
             "active": true,
             "_from_external_id": "asset1",
-            "_to": "hostname/apt28.org"
+            "_to": "hostname/apt41.org"
         }
     ],
     "ipaddress": [
@@ -542,7 +542,7 @@
             "source": "Source1",
             "active": true,
             "_from": "ipaddress/67.229.97.229",
-            "_to": "hostname/apt28.org"
+            "_to": "hostname/apt41.org"
         }
     ],
     "account_application": [
