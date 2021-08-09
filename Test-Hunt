@@ -1,0 +1,269 @@
+{
+    "type": "bundle",
+    "id": "bundle--e2182203-629d-4b87-88ab-049296e1ee71",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--1b56eb84-c9b9-48f2-a01b-7f1c82c53a93",
+            "name": "qradar",
+            "created": "2020-09-30T16:27:37.320Z",
+            "modified": "2020-09-30T16:27:37.320Z",
+            "identity_class": "events"
+        },
+        {
+            "id": "observed-data--8fa31664-c4e9-4210-8309-ff29854aee33",
+            "type": "observed-data",
+            "created_by_ref": "identity--b7eab398-9611-4bb1-b998-059715f5eb8a",
+            "created": "2021-08-09T17:35:34.328Z",
+            "modified": "2021-08-09T17:35:34.328Z",
+            "objects": {
+                "0": {
+                    "type": "x-ecs-process",
+                    "args": [
+                        "C:\\Program Files\\Win Mail\\WinMail.exe"
+                    ],
+                    "parent_args": [
+                        "C:\\Windows\\Explorer.EXE"
+                    ],
+                    "parent_entity_id": "{8dfc401c-f7bd-6068-a900-000000001300}",
+                    "pe_file_version": "1.0.0.0",
+                    "pe_product": "WpfApp1",
+                    "pe_description": "WpfApp1",
+                    "pe_original_file_name": "WpfApp1.dll",
+                    "pe_company": "WpfApp1",
+                    "working_directory": "C:\\Program Files\\Win Mail\\",
+                    "entity_id": "{8dfc401c-2dea-606b-f212-000000001300}"
+                },
+                "1": {
+                    "type": "process",
+                    "name": "explorer.exe",
+                    "pid": 2696,
+                    "binary_ref": "4",
+                    "command_line": "C:\\Windows\\Explorer.EXE"
+                },
+                "2": {
+                    "type": "process",
+                    "parent_ref": "1",
+                    "name": "WinMail.exe",
+                    "pid": 7136,
+                    "binary_ref": "6",
+                    "command_line": "\"C:\\Program Files\\Win Mail\\WinMail.exe\" ",
+                    "creator_user_ref": "14"
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "parent_process_ref": "1",
+                    "process_ref": "2",
+                    "host_ref": "8",
+                    "code": 1,
+                    "provider": "Microsoft-Windows-Sysmon",
+                    "kind": "event",
+                    "created": "2021-04-05T15:34:09.150Z",
+                    "module": "sysmon",
+                    "action": "Process Create (rule: ProcessCreate)",
+                    "category": [
+                        "process"
+                    ],
+                    "event_type": [
+                        "start",
+                        "process_start"
+                    ],
+                    "user_ref": "14"
+                },
+                "4": {
+                    "type": "file",
+                    "name": "explorer.exe",
+                    "parent_directory_ref": "5"
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "C:\\Windows"
+                },
+                "6": {
+                    "type": "file",
+                    "name": "WinMail.exe",
+                    "parent_directory_ref": "7"
+                },
+                "7": {
+                    "type": "directory",
+                    "path": "C:\\Program Files\\Win Mail"
+                },
+                "8": {
+                    "type": "x-oca-asset",
+                    "hostname": "thl-win",
+                    "os_name": "Windows Server 2019 Standard",
+                    "os_version": "10.0",
+                    "os_platform": "windows",
+                    "ip_refs": [
+                        "9",
+                        "10",
+                        "11"
+                    ],
+                    "name": "thl-win.sl.cloud9.ibm.com",
+                    "id": "8dfc401c-b042-4f41-b427-91a9dc0b61ac",
+                    "mac_refs": [
+                        "12"
+                    ],
+                    "architecture": "x86_64"
+                },
+                "9": {
+                    "type": "ipv4-addr",
+                    "value": "9.59.151.141"
+                },
+                "10": {
+                    "type": "ipv4-addr",
+                    "value": "10.184.147.141"
+                },
+                "11": {
+                    "type": "ipv6-addr",
+                    "value": "fe80::5972:f188:2f1d:2dd6"
+                },
+                "12": {
+                    "type": "mac-addr",
+                    "value": "06:98:e8:c9:30:6e"
+                },
+                "13": {
+                    "type": "x-ecs-user",
+                    "domain": "AD-RES"
+                },
+                "14": {
+                    "type": "user-account",
+                    "user_id": "xiaokui.shu_ibm.com",
+                    "account_login": "xiaokui.shu_ibm.com"
+                }
+            },
+            "first_observed": "2021-04-05T15:34:02.151Z",
+            "last_observed": "2021-04-05T15:34:02.151Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--6e304b69-3981-4676-99c7-7a86e0a663f0",
+            "type": "observed-data",
+            "created_by_ref": "identity--b7eab398-9611-4bb1-b998-059715f5eb8a",
+            "created": "2021-08-09T17:35:34.329Z",
+            "modified": "2021-08-09T17:35:34.329Z",
+            "objects": {
+                "0": {
+                    "type": "x-ecs-process",
+                    "args": [
+                        "powershell.exe",
+                        "-file",
+                        "C:\\Users\\Alice\\AppData\\Local\\Temp\\vaccine availability.jpg.ps1"
+                    ],
+                    "parent_args": [
+                        "C:\\Program Files\\Win Mail\\WinMail.exe"
+                    ],
+                    "parent_entity_id": "{8dfc401c-2dea-606b-f212-000000001300}",
+                    "pe_file_version": "10.0.17763.1 (WinBuild.160101.0800)",
+                    "pe_product": "Microsoft\u00ae Windows\u00ae Operating System",
+                    "pe_description": "Windows PowerShell",
+                    "pe_original_file_name": "PowerShell.EXE",
+                    "pe_company": "Microsoft Corporation",
+                    "working_directory": "C:\\Program Files\\Win Mail\\",
+                    "entity_id": "{8dfc401c-2e0f-606b-f312-000000001300}"
+                },
+                "1": {
+                    "type": "process",
+                    "name": "WinMail.exe",
+                    "pid": 7136,
+                    "binary_ref": "4",
+                    "command_line": "\"C:\\Program Files\\Win Mail\\WinMail.exe\" "
+                },
+                "2": {
+                    "type": "process",
+                    "parent_ref": "1",
+                    "name": "powershell.exe",
+                    "pid": 1476,
+                    "command_line": "\"powershell.exe\" -file \"C:\\Users\\Alice\\AppData\\Local\\Temp\\vaccine availability.jpg.ps1\"",
+                    "binary_ref": "6",
+                    "creator_user_ref": "14"
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "parent_process_ref": "1",
+                    "process_ref": "2",
+                    "host_ref": "8",
+                    "code": 1,
+                    "provider": "Microsoft-Windows-Sysmon",
+                    "kind": "event",
+                    "created": "2021-04-05T15:34:41.283Z",
+                    "module": "sysmon",
+                    "action": "Process Create (rule: ProcessCreate)",
+                    "category": [
+                        "process"
+                    ],
+                    "event_type": [
+                        "start",
+                        "process_start"
+                    ],
+                    "user_ref": "14"
+                },
+                "4": {
+                    "type": "file",
+                    "name": "WinMail.exe",
+                    "parent_directory_ref": "5"
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "C:\\Program Files\\Win Mail"
+                },
+                "6": {
+                    "type": "file",
+                    "name": "powershell.exe",
+                    "parent_directory_ref": "7"
+                },
+                "7": {
+                    "type": "directory",
+                    "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+                },
+                "8": {
+                    "type": "x-oca-asset",
+                    "hostname": "thl-win",
+                    "os_name": "Windows Server 2019 Standard",
+                    "os_version": "10.0",
+                    "os_platform": "windows",
+                    "ip_refs": [
+                        "9",
+                        "10",
+                        "11"
+                    ],
+                    "name": "thl-win.sl.cloud9.ibm.com",
+                    "id": "8dfc401c-b042-4f41-b427-91a9dc0b61ac",
+                    "mac_refs": [
+                        "12"
+                    ],
+                    "architecture": "x86_64"
+                },
+                "9": {
+                    "type": "ipv4-addr",
+                    "value": "9.59.151.141"
+                },
+                "10": {
+                    "type": "ipv4-addr",
+                    "value": "10.184.147.141"
+                },
+                "11": {
+                    "type": "ipv6-addr",
+                    "value": "fe80::5972:f188:2f1d:2dd6"
+                },
+                "12": {
+                    "type": "mac-addr",
+                    "value": "06:98:e8:c9:30:6e"
+                },
+                "13": {
+                    "type": "x-ecs-user",
+                    "domain": "AD-RES"
+                },
+                "14": {
+                    "type": "user-account",
+                    "user_id": "xiaokui.shu_ibm.com",
+                    "account_login": "xiaokui.shu_ibm.com"
+                }
+            },
+            "first_observed": "2021-04-05T15:34:39.687Z",
+            "last_observed": "2021-04-05T15:34:39.687Z",
+            "number_observed": 1
+        }
+    ]
+}
