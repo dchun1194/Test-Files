@@ -1,0 +1,567 @@
+{
+    "type": "bundle",
+    "id": "bundle--2bbf237e-b6e5-4627-858e-2b7dc2b1a598",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "identity--1b56eb84-c9b9-48f2-a01b-7f1c82c53a93",
+            "name": "qradar"
+        },
+        {
+            "id": "observed-data--35b6bfae-5c67-4aae-96b7-7076a971deff",
+            "type": "observed-data",
+            "created_by_ref": "identity--1b56eb84-c9b9-48f2-a01b-7f1c82c53a93",
+            "created": "2021-08-09T17:34:23.348Z",
+            "modified": "2021-08-09T17:34:23.348Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "TCP_TUNNEL",
+                    "outcome": "Information",
+                    "category": [
+                        "System"
+                    ],
+                    "provider": "Squid Web Proxy",
+                    "agent": "WebProxy @ thl",
+                    "created": "2021-04-05T15:37:47.854Z",
+                    "network_ref": "4",
+                    "host_ref": "5",
+                    "original_ref": "10",
+                    "url_ref": "11",
+                    "domain_ref": "12"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 13500205,
+                    "category_id": 8052,
+                    "high_level_category_id": 8000,
+                    "log_source_id": 71,
+                    "device_type": 46,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100101",
+                        "100030",
+                        "100227",
+                        "100221",
+                        "100297",
+                        "100277",
+                        "100263",
+                        "100272"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2021-04-05T15:37:47.854Z",
+                    "end": "2021-04-05T15:37:47.854Z",
+                    "src_ip_ref": "3",
+                    "dst_ip_ref": "7",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 2,
+                    "severity": 2,
+                    "src_geolocation": "NorthAmerica.UnitedStates",
+                    "dst_geolocation": "NorthAmerica.UnitedStates",
+                    "rule_names": [
+                        "BB:NetworkDefinition: Honeypot like Addresses",
+                        "BB:PortDefinition: Web Ports",
+                        "Source Asset Weight is Low",
+                        "Destination Asset Weight is Low",
+                        "BB:PortDefinition: Authorized L2R Ports",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "BB:DeviceDefinition: Proxy",
+                        "Load Basic Building Blocks"
+                    ]
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "9.12.235.31",
+                    "resolves_to_refs": [
+                        "6"
+                    ]
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "3",
+                    "src_port": 45788,
+                    "dst_ref": "7",
+                    "dst_port": 443,
+                    "protocols": [
+                        "reserved"
+                    ],
+                    "extensions": {
+                        "dns-ext": {
+                            "question": {
+                                "domain_ref": "12"
+                            }
+                        }
+                    }
+                },
+                "5": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "3",
+                        "9"
+                    ],
+                    "mac_refs": [
+                        "6"
+                    ]
+                },
+                "6": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "104.16.38.72",
+                    "resolves_to_refs": [
+                        "8"
+                    ]
+                },
+                "8": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "9": {
+                    "type": "ipv4-addr",
+                    "value": "0.0.0.0"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "PDE2Nj5BcHIgIDUgMTE6Mzk6MjIgdGhsIChzcXVpZC0xKTogMTYxNzYzNzE2Mi4zMzUgICAgNDc4IDkuMTIuMjM1LjMxOjQ1Nzg4IFRDUF9UVU5ORUwvMjAwIDU0NjMgQ09OTkVDVCBjb250cm9sLmNsb3VkLW9iamVjdC1zdG9yYWdlLmNsb3VkLmlibS5jb206NDQzIC0gSElFUl9ESVJFQ1QvMTA0LjE2LjM4LjcyOjQ0MyAtICItIgo="
+                },
+                "11": {
+                    "type": "url",
+                    "value": "control.cloud-object-storage.cloud.ibm.com:443"
+                },
+                "12": {
+                    "type": "domain-name",
+                    "value": "control.cloud-object-storage.cloud.ibm.com"
+                }
+            },
+            "first_observed": "2021-04-05T15:37:47.854Z",
+            "last_observed": "2021-04-05T15:37:47.854Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--783f4040-a9ae-401d-8ee4-68575278fe3f",
+            "type": "observed-data",
+            "created_by_ref": "identity--1b56eb84-c9b9-48f2-a01b-7f1c82c53a93",
+            "created": "2021-08-09T17:34:23.349Z",
+            "modified": "2021-08-09T17:34:23.349Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "TCP_TUNNEL",
+                    "outcome": "Information",
+                    "category": [
+                        "System"
+                    ],
+                    "provider": "Squid Web Proxy",
+                    "agent": "WebProxy @ thl",
+                    "created": "2021-04-05T15:37:50.739Z",
+                    "network_ref": "4",
+                    "host_ref": "5",
+                    "original_ref": "10",
+                    "url_ref": "11",
+                    "domain_ref": "12"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 13500205,
+                    "category_id": 8052,
+                    "high_level_category_id": 8000,
+                    "log_source_id": 71,
+                    "device_type": 46,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100101",
+                        "100030",
+                        "100227",
+                        "100221",
+                        "100297",
+                        "100277",
+                        "100263",
+                        "100272"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2021-04-05T15:37:50.739Z",
+                    "end": "2021-04-05T15:37:50.739Z",
+                    "src_ip_ref": "3",
+                    "dst_ip_ref": "7",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 2,
+                    "severity": 2,
+                    "src_geolocation": "NorthAmerica.UnitedStates",
+                    "dst_geolocation": "NorthAmerica.UnitedStates",
+                    "rule_names": [
+                        "BB:NetworkDefinition: Honeypot like Addresses",
+                        "BB:PortDefinition: Web Ports",
+                        "Source Asset Weight is Low",
+                        "Destination Asset Weight is Low",
+                        "BB:PortDefinition: Authorized L2R Ports",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "BB:DeviceDefinition: Proxy",
+                        "Load Basic Building Blocks"
+                    ]
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "9.12.235.31",
+                    "resolves_to_refs": [
+                        "6"
+                    ]
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "3",
+                    "src_port": 45794,
+                    "dst_ref": "7",
+                    "dst_port": 443,
+                    "protocols": [
+                        "reserved"
+                    ],
+                    "extensions": {
+                        "dns-ext": {
+                            "question": {
+                                "domain_ref": "12"
+                            }
+                        }
+                    }
+                },
+                "5": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "3",
+                        "9"
+                    ],
+                    "mac_refs": [
+                        "6"
+                    ]
+                },
+                "6": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "104.244.42.130",
+                    "resolves_to_refs": [
+                        "8"
+                    ]
+                },
+                "8": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "9": {
+                    "type": "ipv4-addr",
+                    "value": "0.0.0.0"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "PDE2Nj5BcHIgIDUgMTE6Mzk6MjUgdGhsIChzcXVpZC0xKTogMTYxNzYzNzE2NS4yMTggICAxMjg0IDkuMTIuMjM1LjMxOjQ1Nzk0IFRDUF9UVU5ORUwvMjAwIDg1MzUgQ09OTkVDVCBhcGkudHdpdHRlci5jb206NDQzIC0gSElFUl9ESVJFQ1QvMTA0LjI0NC40Mi4xMzA6NDQzIC0gIi0iCg=="
+                },
+                "11": {
+                    "type": "url",
+                    "value": "api.twitter.com:443"
+                },
+                "12": {
+                    "type": "domain-name",
+                    "value": "api.twitter.com"
+                }
+            },
+            "first_observed": "2021-04-05T15:37:50.739Z",
+            "last_observed": "2021-04-05T15:37:50.739Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--3a7dc77a-59ef-445e-bbff-40ca4771f2e3",
+            "type": "observed-data",
+            "created_by_ref": "identity--1b56eb84-c9b9-48f2-a01b-7f1c82c53a93",
+            "created": "2021-08-09T17:34:23.350Z",
+            "modified": "2021-08-09T17:34:23.350Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "TCP_TUNNEL",
+                    "outcome": "Information",
+                    "category": [
+                        "System"
+                    ],
+                    "provider": "Squid Web Proxy",
+                    "agent": "WebProxy @ thl",
+                    "created": "2021-04-05T15:37:50.739Z",
+                    "network_ref": "4",
+                    "host_ref": "5",
+                    "original_ref": "10",
+                    "url_ref": "11",
+                    "domain_ref": "12"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 13500205,
+                    "category_id": 8052,
+                    "high_level_category_id": 8000,
+                    "log_source_id": 71,
+                    "device_type": 46,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100030",
+                        "100227",
+                        "100221",
+                        "100297",
+                        "100263",
+                        "100272"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2021-04-05T15:37:50.739Z",
+                    "end": "2021-04-05T15:37:50.739Z",
+                    "src_ip_ref": "3",
+                    "dst_ip_ref": "7",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 2,
+                    "severity": 2,
+                    "src_geolocation": "NorthAmerica.UnitedStates",
+                    "dst_geolocation": "NorthAmerica.UnitedStates",
+                    "rule_names": [
+                        "BB:PortDefinition: Web Ports",
+                        "Source Asset Weight is Low",
+                        "Destination Asset Weight is Low",
+                        "BB:PortDefinition: Authorized L2R Ports",
+                        "BB:DeviceDefinition: Proxy",
+                        "Load Basic Building Blocks"
+                    ]
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "9.12.235.31",
+                    "resolves_to_refs": [
+                        "6"
+                    ]
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "3",
+                    "src_port": 45792,
+                    "dst_ref": "7",
+                    "dst_port": 443,
+                    "protocols": [
+                        "reserved"
+                    ],
+                    "extensions": {
+                        "dns-ext": {
+                            "question": {
+                                "domain_ref": "12"
+                            }
+                        }
+                    }
+                },
+                "5": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "3",
+                        "9"
+                    ],
+                    "mac_refs": [
+                        "6"
+                    ]
+                },
+                "6": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "169.46.118.100",
+                    "resolves_to_refs": [
+                        "8"
+                    ]
+                },
+                "8": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "9": {
+                    "type": "ipv4-addr",
+                    "value": "0.0.0.0"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "PDE2Nj5BcHIgIDUgMTE6Mzk6MjUgdGhsIChzcXVpZC0xKTogMTYxNzYzNzE2NS4yMjAgICAyMDcxIDkuMTIuMjM1LjMxOjQ1NzkyIFRDUF9UVU5ORUwvMjAwIDY3MzMgQ09OTkVDVCBzMy51cy1zb3V0aC5jbG91ZC1vYmplY3Qtc3RvcmFnZS5hcHBkb21haW4uY2xvdWQ6NDQzIC0gSElFUl9ESVJFQ1QvMTY5LjQ2LjExOC4xMDA6NDQzIC0gIi0iCg=="
+                },
+                "11": {
+                    "type": "url",
+                    "value": "s3.us-south.cloud-object-storage.appdomain.cloud:443"
+                },
+                "12": {
+                    "type": "domain-name",
+                    "value": "s3.us-south.cloud-object-storage.appdomain.cloud"
+                }
+            },
+            "first_observed": "2021-04-05T15:37:50.739Z",
+            "last_observed": "2021-04-05T15:37:50.739Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--883b4348-cf1d-4667-ab3e-7c95ebe78226",
+            "type": "observed-data",
+            "created_by_ref": "identity--1b56eb84-c9b9-48f2-a01b-7f1c82c53a93",
+            "created": "2021-08-09T17:34:23.350Z",
+            "modified": "2021-08-09T17:34:23.350Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "TCP_TUNNEL",
+                    "outcome": "Information",
+                    "category": [
+                        "System"
+                    ],
+                    "provider": "Squid Web Proxy",
+                    "agent": "WebProxy @ thl",
+                    "created": "2021-04-05T15:37:48.620Z",
+                    "network_ref": "4",
+                    "host_ref": "5",
+                    "original_ref": "10",
+                    "url_ref": "11",
+                    "domain_ref": "12"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 13500205,
+                    "category_id": 8052,
+                    "high_level_category_id": 8000,
+                    "log_source_id": 71,
+                    "device_type": 46,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100101",
+                        "100030",
+                        "100227",
+                        "100221",
+                        "100297",
+                        "100277",
+                        "100263",
+                        "100272"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain",
+                    "has_offense": "false"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2021-04-05T15:37:42.259Z",
+                    "end": "2021-04-05T15:37:42.259Z",
+                    "src_ip_ref": "3",
+                    "dst_ip_ref": "7",
+                    "event_count": 4,
+                    "finding_type": "event",
+                    "magnitude": 2,
+                    "severity": 2,
+                    "src_geolocation": "NorthAmerica.UnitedStates",
+                    "dst_geolocation": "NorthAmerica.UnitedStates",
+                    "rule_names": [
+                        "BB:NetworkDefinition: Honeypot like Addresses",
+                        "BB:PortDefinition: Web Ports",
+                        "Source Asset Weight is Low",
+                        "Destination Asset Weight is Low",
+                        "BB:PortDefinition: Authorized L2R Ports",
+                        "BB:NetworkDefinition: Darknet Addresses",
+                        "BB:DeviceDefinition: Proxy",
+                        "Load Basic Building Blocks"
+                    ]
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "9.12.235.31",
+                    "resolves_to_refs": [
+                        "6"
+                    ]
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "3",
+                    "src_port": 45790,
+                    "dst_ref": "7",
+                    "dst_port": 443,
+                    "protocols": [
+                        "reserved"
+                    ],
+                    "extensions": {
+                        "dns-ext": {
+                            "question": {
+                                "domain_ref": "12"
+                            }
+                        }
+                    }
+                },
+                "5": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "3",
+                        "9"
+                    ],
+                    "mac_refs": [
+                        "6"
+                    ]
+                },
+                "6": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "23.73.253.4",
+                    "resolves_to_refs": [
+                        "8"
+                    ]
+                },
+                "8": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "9": {
+                    "type": "ipv4-addr",
+                    "value": "0.0.0.0"
+                },
+                "10": {
+                    "type": "artifact",
+                    "payload_bin": "PDE2Nj5BcHIgIDUgMTE6Mzk6MjMgdGhsIChzcXVpZC0xKTogMTYxNzYzNzE2My4xMDEgICAgNjAyIDkuMTIuMjM1LjMxOjQ1NzkwIFRDUF9UVU5ORUwvMjAwIDgzMDcgQ09OTkVDVCBpYW0uY2xvdWQuaWJtLmNvbTo0NDMgLSBISUVSX0RJUkVDVC8yMy43My4yNTMuNDo0NDMgLSAiLSIK"
+                },
+                "11": {
+                    "type": "url",
+                    "value": "iam.cloud.ibm.com:443"
+                },
+                "12": {
+                    "type": "domain-name",
+                    "value": "iam.cloud.ibm.com"
+                }
+            },
+            "first_observed": "2021-04-05T15:37:42.259Z",
+            "last_observed": "2021-04-05T15:37:42.259Z",
+            "number_observed": 4
+        }
+    ]
+}
