@@ -4,14 +4,6 @@
     "spec_version": "2.0",
     "objects": [
         {
-            "type": "identity",
-            "id": "identity--1b56eb84-c9b9-48f2-a01b-7f1c82c53a93",
-            "name": "qradar",
-            "created": "2020-09-30T16:27:37.320Z",
-            "modified": "2020-09-30T16:27:37.320Z",
-            "identity_class": "events"
-        },
-        {
             "id": "observed-data--8fa31664-c4e9-4210-8309-ff29854aee33",
             "type": "observed-data",
             "created_by_ref": "identity--b7eab398-9611-4bb1-b998-059715f5eb8a",
